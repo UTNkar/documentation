@@ -6,6 +6,8 @@ maintained by the UTN Sytem Administrator.
 ## Table of Contents
 - [Google Apps](Google Apps)
   - [Account Policy](Google Apps/Account Policy.md)
+- [Digital Ocean](Digital Ocean)
+  - [New Servers](Digital Ocean/New Servers.md)
 
 ## System Administrators
 
