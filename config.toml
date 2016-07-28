@@ -2,3 +2,14 @@ baseurl = "https://docs.utn.se/"
 languageCode = "en-us"
 title = "UTN System Documentation"
 theme = "hugo-theme-learn"
+
+[params]
+  # Prefix URL to edit current page. Useful to give opportunity to people to create merge request for your doc.
+  # See the config.toml file from this documentation site to have an example.
+  editURL = "https://gitlab.com/UTNkar/system-documentation/edit/master/"
+  # Author of the site, will be used in meta information
+  author = "Jip J. Dekker"
+  # Description of the site, will be used in meta information
+  description = "The documentation of UTN's IT systems"
+  # Shows a checkmark for visited pages on the menu. Default to false
+  showVisitedLinks = false
