@@ -14,7 +14,9 @@ UTN governs the following domain names:
 - utnarm.com
 - utnarm.se
 
-These domain names are registered at [Loopia](https://customerzone.loopia.com/), but the name servers for `utn.se` are those of [CloudFlare](https://www.cloudflare.com/). (The others are still at Loopia.)
+These domain names are registered at [Loopia](https://customerzone.loopia.com/),
+but the name servers for `utn.se` are those of
+[CloudFlare](https://www.cloudflare.com/). (The others are still at Loopia.)
 
 ## CloudFlare
 
