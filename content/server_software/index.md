@@ -14,4 +14,5 @@ weight = 3
 # Server Software
 
 Short descriptions for the software UTN utilizes on its server and explanations
-regarding the way in which the software is configured.
+regarding the way in which the software is configured. UTN uses the Ubuntu
+Server operating system; provided commands might not work on other systems.
