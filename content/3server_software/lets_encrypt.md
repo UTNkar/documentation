@@ -1,7 +1,7 @@
 +++
 date = "2016-08-02T15:40:49+02:00"
-next = "/next/path"
-prev = "/prev/path"
+next = "/4development_tools"
+prev = "/3server_software"
 title = "Let's Encrypt"
 toc = true
 weight = 5

@@ -2,8 +2,8 @@
 chapter = true
 date = "2016-08-01T15:21:39+02:00"
 icon = "<b>1. </b>"
-next = "/infrastructure"
-prev = "/introduction"
+next = "/2infrastructure"
+prev = "/0introduction"
 title = "Developing for UTN"
 weight = 1
 
