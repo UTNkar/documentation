@@ -1,7 +1,7 @@
 +++
 date = "2016-08-02T16:30:18+02:00"
-next = "/next/path"
-prev = "/prev/path"
+next = "/3server_software/"
+prev = "/3server_software/php"
 title = "NGINX"
 toc = true
 weight = 5
@@ -17,6 +17,7 @@ those applications is located within the Ansible repository.
 
 All configurations for the websites that NGINX serves are available on the server in the `/etc/nginx/sites-available` folder. In general we try to give each file the name of the website(FQDN) that it serves. To enable on of the websites we can simply symlink the configuration file to `/etc/nginx/sites-available` (e.g., `ln -s /etc/nginx/sites-available/test.utn.se /etc/nginx/sites-enabled/test.utn.se`).
 
+### Useful commands:
 The commands you should keep in mind when working with NGINX are the following:
 
 - `nginx -t`, to test if the configurations are valid. (This will avoid blank
@@ -24,6 +25,9 @@ pages for users.)
 - `systemctl reload nginx`, to start using the configurations currently enabled.
 - `systemctl restart nginx`, to restart the whole web server.
 
+Note that these commands need to be run as the `root` user.
+
+### Example configuration:
 Most UTN websites are PHP-based applications and use SSL/HTTP2 connections (using
 Let's Encrypt certificates). An example configuration for such applications is
 the following (based on the NGINX configuration for

@@ -1,10 +1,10 @@
 +++
 date = "2016-08-02T15:40:49+02:00"
 next = "/4development_tools"
-prev = "/3server_software"
+prev = "/3server_software/mysql"
 title = "Let's Encrypt"
 toc = true
-weight = 5
+weight = 45
 
 +++
 
