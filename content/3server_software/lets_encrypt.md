@@ -1,6 +1,6 @@
 +++
 date = "2016-08-02T15:40:49+02:00"
-next = "/4development_tools"
+next = "/3server_software/ufw"
 prev = "/3server_software/mysql"
 title = "Let's Encrypt"
 toc = true
@@ -26,9 +26,18 @@ NGINX configuration).
 
 The certificates are automatically renewed using cron. To test the renewal run
 `sudo letsencrypt renew --dry-run`. Using `sudo crontab -e` one of the cron
-lines should then be similar to `32 6 * * * /usr/bin/letsencrypt renew -q`.
+lines should then be similar to `32 6 * * * /usr/bin/letsencrypt renew`.
 
 {{% notice note %}}
-To increase the reliability of the certificate renewal
-process, a random time of day should be used.
+
+To increase the reliability of the certificate renewal process, a random time of
+day should be used.
+
+{{% /notice %}}
+
+{{% notice warning %}}
+
+Currently the version of the Let's Encrypt bot, doesn't have a *quiet* mode. So
+an e-mail will be send from every server to the server admin.
+
 {{% /notice %}}
