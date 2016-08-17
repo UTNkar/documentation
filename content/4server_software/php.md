@@ -15,7 +15,7 @@ PHP 7.
 So far, no special settings have been set for the PHP installation, should this
 be necessary, the PHP settings are available in `/etc/php/7.0/fpm/php.ini`.
 
-### Useful commands:
+### Useful commands
 The commands you should keep in mind when working with NGINX are the following:
 
 - `systemctl restart php7.0-fpm`, to restart the PHP7 deamon.

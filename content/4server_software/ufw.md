@@ -27,7 +27,7 @@ authentication.
 
 {{% /notice %}}
 
-### Useful commands:
+### Useful commands
 The commands you should keep in mind when working with UFW are the following:
 
 - `ufw allow [rule]`, to allow access for connections matching the rule.

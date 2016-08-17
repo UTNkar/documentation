@@ -15,7 +15,7 @@ applications using a PostgreSQL database are automatically deployed using
 [Ansible](/5development_tools/ansible), and configurations for those database
 users and databases should be done within the Ansible repository.
 
-### Useful Commands:
+### Useful Commands
 {{% notice info %}}
 
 PostgreSQL automatically creates a standard user with the root rights for the
@@ -33,5 +33,5 @@ The following commands are useful when working with PostgreSQL:
 database owned by specified user.
 - `dropdb [database]`, remove database from the server.
 
-### Further reading:
+### Further reading
 - [The PostgreSQL Documentation](https://www.postgresql.org/docs/9.5/static/index.html)

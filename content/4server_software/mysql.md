@@ -19,12 +19,12 @@ Should any application be ported from MySQL to PostgreSQL, take into account
 that there are quite a few differences in the SQL syntax between the two. Make
 sure to test the application thoroughly before deploying it.
 
-### Useful commands:
+### Useful commands
 The commands you should keep in mind when working with NGINX are the following:
 
 - `mysql -uroot -p [database]`, enter the commandline interface of MySQL as root. (This command will prompt for the root password.)
 
-### Common settings:
+### Common settings
 To accommodate automatic deployments using [Ansible](/5development_tools/ansible), it must have access to MySQL credentials. To keep them safe, Ansible suggests locating them in a file located at `/root/.my.cnf` in the format:
 
 ```
