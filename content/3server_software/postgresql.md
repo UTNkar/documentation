@@ -16,9 +16,13 @@ applications using a PostgreSQL database are automatically deployed using
 users and databases should be done within the Ansible repository.
 
 ### Useful Commands:
+{{% notice info %}}
+
 PostgreSQL automatically creates a standard user with the root rights for the
 databases on the server, named `postgres`. This user does not have a password,
 thus `sudo -upostgres` should be used to run postgreSQL commands.
+
+{{% /notice %}}
 
 The following commands are useful when working with PostgreSQL:
 
