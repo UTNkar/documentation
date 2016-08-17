@@ -1,7 +1,7 @@
 +++
 date = "2016-08-02T16:31:19+02:00"
-next = "/3server_software/nginx"
-prev = "/3server_software/postgresql"
+next = "/3server_software/postgresql"
+prev = "/3server_software/nginx"
 title = "PHP"
 toc = true
 weight = 15
