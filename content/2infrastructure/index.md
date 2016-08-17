@@ -2,7 +2,7 @@
 chapter = true
 date = "2016-08-01T15:22:28+02:00"
 icon = "<b>2. </b>"
-next = "/4server_software"
+next = "/2infrastructure/google_apps"
 title = "Infrastructure"
 weight = 0
 
