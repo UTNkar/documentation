@@ -22,7 +22,7 @@ allowed (both on IPv4 and IPv6):
 {{% notice warning %}}
 
 Do not enable `25/tcp` unless the mail server
-([PostFix](/3server_software/postfix)), is secured against foreign
+([Postfix](/3server_software/postfix)), is secured against foreign
 authentication.
 
 {{% /notice %}}
