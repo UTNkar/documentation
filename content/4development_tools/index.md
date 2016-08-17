@@ -3,7 +3,6 @@ chapter = true
 date = "2016-08-01T15:22:03+02:00"
 icon = "<b>4. </b>"
 next = "/4development_tools/trello"
-prev = "/3server_software/lets_encrypt"
 title = "Development Tools"
 weight = 4
 +++
