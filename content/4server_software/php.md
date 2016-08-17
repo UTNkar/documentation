@@ -1,7 +1,7 @@
 +++
 date = "2016-08-02T16:31:19+02:00"
-next = "/3server_software/postgresql"
-prev = "/3server_software/nginx"
+next = "/4server_software/postgresql"
+prev = "/4server_software/nginx"
 title = "PHP"
 toc = true
 weight = 15
@@ -9,7 +9,7 @@ weight = 15
 +++
 
 PHP based application on the UTN infrastructure are served using `php-fpm` and
-[NGINX](/3server_software/nginx). Currently all new deployments are done using
+[NGINX](/4server_software/nginx). Currently all new deployments are done using
 PHP 7.
 
 So far, no special settings have been set for the PHP installation, should this

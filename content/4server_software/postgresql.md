@@ -1,7 +1,7 @@
 +++
 date = "2016-08-02T16:31:29+02:00"
-next = "/3server_software/mysql"
-prev = "/3server_software/php"
+next = "/4server_software/mysql"
+prev = "/4server_software/php"
 title = "PostgreSQL"
 toc = true
 weight = 25
@@ -12,7 +12,7 @@ For some applications within the UTN infrastructure our preferred database is
 used, [PostgreSQL](https://www.postgresql.org). This database is preferred
 because of its efficiency, availability, and superior system tooling. Most
 applications using a PostgreSQL database are automatically deployed using
-[Ansible](/4development_tools/ansible), and configurations for those database
+[Ansible](/5development_tools/ansible), and configurations for those database
 users and databases should be done within the Ansible repository.
 
 ### Useful Commands:

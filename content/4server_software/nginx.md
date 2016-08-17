@@ -1,7 +1,7 @@
 +++
 date = "2016-08-02T16:30:18+02:00"
-next = "/3server_software/php"
-prev = "/3server_software/"
+next = "/4server_software/php"
+prev = "/4server_software/"
 title = "NGINX"
 toc = true
 weight = 5
@@ -15,7 +15,7 @@ server might have.
 
 {{% notice tip %}}
 
-Most UTN deployments are done using [Ansible](/4development_tools/ansible) and
+Most UTN deployments are done using [Ansible](/5development_tools/ansible) and
 that the NGINX configurations for those applications is located within the
 Ansible repository.
 

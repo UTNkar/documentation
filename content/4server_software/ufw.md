@@ -1,7 +1,7 @@
 +++
 date = "2016-08-02T16:30:14+02:00"
-next = "/3server_software/postfix"
-prev = "/3server_software/lets_encrypt"
+next = "/4server_software/postfix"
+prev = "/4server_software/lets_encrypt"
 title = "UFW"
 toc = true
 weight = 55
@@ -22,7 +22,7 @@ allowed (both on IPv4 and IPv6):
 {{% notice warning %}}
 
 Do not enable `25/tcp` unless the mail server
-([Postfix](/3server_software/postfix)), is secured against foreign
+([Postfix](/4server_software/postfix)), is secured against foreign
 authentication.
 
 {{% /notice %}}

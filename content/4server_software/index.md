@@ -1,14 +1,14 @@
 +++
 chapter = true
 date = "2016-08-01T15:03:36+02:00"
-icon = "<b>3. </b>"
-next = "/3server_software/nginx"
+icon = "<b>4. </b>"
+next = "/4server_software/nginx"
 title = "Server Software"
-weight = 3
+weight = 0
 
 +++
 
-### Chapter 3
+### Chapter 4
 
 # Server Software
 

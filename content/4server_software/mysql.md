@@ -1,7 +1,7 @@
 +++
 date = "2016-08-17T14:13:23+02:00"
-next = "/3server_software/letsencrypt"
-prev = "/3server_software/postgresql"
+next = "/4server_software/letsencrypt"
+prev = "/4server_software/postgresql"
 title = "MySQL"
 toc = true
 weight = 35
@@ -12,7 +12,7 @@ Older web applications within UTN still use [MySQL](https://www.mysql.com).
 Although not the preferred database by the UTN system administrator, it is a
 widely use database system that is widely documented. Most applications using a
 MySQL database are automatically deployed using
-[Ansible](/4development_tools/ansible), and configurations for those database
+[Ansible](/5development_tools/ansible), and configurations for those database
 users and databases should be done within the Ansible repository.
 
 Should any application be ported from MySQL to PostgreSQL, take into account
@@ -25,7 +25,7 @@ The commands you should keep in mind when working with NGINX are the following:
 - `mysql -uroot -p [database]`, enter the commandline interface of MySQL as root. (This command will prompt for the root password.)
 
 ### Common settings:
-To accommodate automatic deployments using [Ansible](/4development_tools/ansible), it must have access to MySQL credentials. To keep them safe, Ansible suggests locating them in a file located at `/root/.my.cnf` in the format:
+To accommodate automatic deployments using [Ansible](/5development_tools/ansible), it must have access to MySQL credentials. To keep them safe, Ansible suggests locating them in a file located at `/root/.my.cnf` in the format:
 
 ```
 [client]

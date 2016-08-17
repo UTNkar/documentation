@@ -1,6 +1,6 @@
 +++
 date = "2016-08-17T15:17:17+02:00"
-prev = "/3server_software/ufw"
+prev = "/4server_software/ufw"
 title = "Postfix"
 toc = true
 weight = 65
@@ -17,7 +17,7 @@ Apps](/2infrastructure/google_apps).
 {{% notice note %}}
 
 The installation of Postfix on the servers is done using an
-[Ansible](/4development_tools/ansible) role. For more information about the
+[Ansible](/5development_tools/ansible) role. For more information about the
 installation, see the Ansible repository.
 
 {{% /notice %}}
