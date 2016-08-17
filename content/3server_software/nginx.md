@@ -98,3 +98,7 @@ server {
   }
 }
 ```
+
+#### Further reading:
+
+- [How To Set Up Nginx with HTTP/2 Support on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-16-04?utm_medium=social&utm_source=twitter&utm_campaign=nginx_http2_ubuntu_tut&utm_content=image)
