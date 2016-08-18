@@ -1,5 +1,6 @@
 +++
 date = "2016-08-02T16:38:11+02:00"
+next = "/2infrastructure/loopia"
 prev = "/2infrastructure/digital_ocean"
 title = "GleSYS"
 toc = true
