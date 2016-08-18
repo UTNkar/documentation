@@ -23,7 +23,8 @@ found in `/var/www/`. The following web applications are running on Turing:
 
 - [register.utn.se](https://register.utn.se) - The UTN Registry
 - [survey.utn.se](https://survey.utn.se) - LimeSurvey
-- [mfk.utn.se](https://mfk.utn.se) - MFK Reception's Website
+- [mfk.utn.se](https://mfk.utn.se) - MFK Reception's Website (contact:
+[hivemind@mfk.utn.se](mailto:Hivemind@mfk.utn.se))
 
 ## Babbage
 
