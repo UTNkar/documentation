@@ -12,6 +12,19 @@ template was developed, that could be customized for every committee. The main
 website contains the bar at the top of the page, containing all links to the
 other websites, this is automatically used on all the other websites.
 
+### Drush
+
+[Drush](https://github.com/drush-ops/drush), short for Drupal Shell, is a small
+tool that can be used to help manage Drupal installations. The application has
+been installed on *Babbage*. For full usage, see the documentation, but the
+following commands can be usefull:
+
+- `drush core-status`, shows the core status and locational settings.
+- `drush up`, update drupal core and modules (including database).
+
+Drush will automatically make backups of the code before installing the new
+versions.
+
 ### New Drupal 7 website
 
 Because the template is rather peculiar (to say the least), it is best to start
@@ -25,6 +38,7 @@ event server. The process of installing is rather easy:
 4. Edit the settings in `sites/default/settings.php` to match the URL and
 database.
 5. Create/Enable an NGINX configuration for the new website.
+6. Update Drupal, and all installed modules, to the most current version
 
 {{% notice info %}}
 
