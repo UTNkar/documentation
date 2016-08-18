@@ -2,7 +2,7 @@
 chapter = true
 date = "2016-08-17T15:36:43+02:00"
 icon = "<b>3. </b>"
-next = "/next/path"
+next = "/3applications/drupal7"
 title = "Applications"
 weight = 0
 
@@ -12,4 +12,4 @@ weight = 0
 
 # Applications
 
-Lorem ipsum
+Information on the web applications run by UTN itself.
