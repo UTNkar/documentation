@@ -18,12 +18,6 @@ missing.
 
 {{% /notice %}}
 
-### Martin Norlin - (-2016)
-
-contact: \[[e-mail](mailto:martin.norlin@utn.se)\]
-
--
-
 ### Jip J. Dekker - (2016)
 
 contact: \[[www](https://jip.dekker.li/); [e-mail](mailto:jip@dekker.li)\]
@@ -31,4 +25,12 @@ contact: \[[www](https://jip.dekker.li/); [e-mail](mailto:jip@dekker.li)\]
 - Introduction of Ansible Deployments
 - DNS restructuring (CloudFlare)
 - Server Application-wise restructuring (Digital Ocean)
-- PHP7/PostgreSQL Registry Conversion
+- PHP7/PostgreSQL registry conversion
+- Creation of the documentation web application
+
+### Martin Norlin - (-2016)
+
+contact: \[[e-mail](mailto:martin.norlin@utn.se)\]
+
+- Creating the Drupal 7-based UTN websites
+- Setting up the GleSYS server structure
