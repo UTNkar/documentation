@@ -11,26 +11,40 @@ possible, some things may not have been included in the documentation. So both
 in the sense of *"Credit where credit is due"*, and as a form of history
 keeping, here follows a list of UTN's IT heroes and their merits.
 
-{{% notice warning %}}
+#### Jip J. Dekker - (2016)
+*System Administrator* - contact: \[[www](https://jip.dekker.li/);
+[e-mail](mailto:jip@dekker.li);\]
 
-This page is currently incomplete, various IT heroes and their merits are still
-missing.
+- Introduced Ansible Deployments
+- Restructured DNS using CloudFlare
+- Migrated servers to Digital Ocean
+- Converted the UTN Registry to use PHP7/PostgreSQL
+- Creator of the documentation web application
+
+#### Martin Norlin - (2012-2015)
+*System Administrator* - contact: \[[e-mail](mailto:martin.norlin@utn.se)\]
+
+- Creator of the Drupal 7-based UTN Website
+- Creator of the Drupal 7-based Event Websites
+- Set up the GleSYS server structure
+
+#### Adam Byström
+contact: \[[e-mail](mailto:adam.bystrom@uppstuk.se)\]
+
+- Co-creator of the Drupal 7-based UTN Website
+
+#### Åker Lagercrantz & Niclas Edenvin
+
+- Creators of [pay.utn.se](https://pay.utn.se/)
+
+#### Patrik Sternudd - (2007?)
+*Head of Labour Market Affairs* - contact: \[[LinkedIn](http://se.linkedin.com/in/psternudd)\]
+
+- Creator of the UTN Registry
+
+{{% notice note %}}
+
+Due to lack of documentation before 2016, information might be lacking or
+incorrect; contributions are welcome!
 
 {{% /notice %}}
-
-### Jip J. Dekker - (2016)
-
-contact: \[[www](https://jip.dekker.li/); [e-mail](mailto:jip@dekker.li)\]
-
-- Introduction of Ansible Deployments
-- DNS restructuring (CloudFlare)
-- Server Application-wise restructuring (Digital Ocean)
-- PHP7/PostgreSQL registry conversion
-- Creation of the documentation web application
-
-### Martin Norlin - (-2016)
-
-contact: \[[e-mail](mailto:martin.norlin@utn.se)\]
-
-- Creating the Drupal 7-based UTN websites
-- Setting up the GleSYS server structure
