@@ -36,7 +36,7 @@ currently no other TXT-records are necessary.
 
 The SPF record for a domain contains the addresses of any server that can send
 e-mails on behalf of people on that domain. The preferred way is to use
-structures like `a:turing.utn.se`, however that is a maximum of DNS resolves.
+structures like `a:turing.utn.se`, however there is a maximum of DNS resolves.
 Thus sometimes IP-addresses have to be used instead. A good example of an SPF
 record is the one used for the main UTN domain:
 
