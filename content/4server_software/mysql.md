@@ -1,6 +1,6 @@
 +++
 date = "2016-08-17T14:13:23+02:00"
-next = "/4server_software/letsencrypt"
+next = "/4server_software/lets_encrypt"
 prev = "/4server_software/postgresql"
 title = "MySQL"
 toc = true
