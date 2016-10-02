@@ -15,6 +15,6 @@ This chapter discusses the tools and services utilized by the UTN System
 Administrator to make the position bearable. The following tools/services are
 currently in use:
 
-- [Trello](/development_tools/trello) - Issue Tracker
-- [GitLab](/development_tools/gitlab) - Version Control
-- [Ansible](/development_tools/ansible) - Ansible
+- [Trello](/5development_tools/trello) - Issue Tracker
+- [GitLab](/5development_tools/gitlab) - Version Control
+- [Ansible](/5development_tools/ansible) - Ansible
