@@ -1,7 +1,7 @@
 +++
 date = "2016-08-25T21:11:41+02:00"
-next = "/1developing_for_utn/datagrip"
-prev = "/1developing_for_utn/ssh_key"
+next = "/developing_for_utn/datagrip"
+prev = "/developing_for_utn/ssh_key"
 title = "File Access (FileZilla)"
 toc = true
 weight = 15
@@ -21,7 +21,7 @@ files using [FileZilla](https://filezilla-project.org).
   - Select the *SFTP* protocol
   - Select the *Key file* logon type
   - Enter your *User*
-  - Enter the location of your [*Key file*](/1developing_for_utn/ssh_key)
+  - Enter the location of your [*Key file*](/developing_for_utn/ssh_key)
 ![New Site](/images/filezilla/site_window.png)
 
 4. Now click **Connect**.

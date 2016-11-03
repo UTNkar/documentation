@@ -1,6 +1,6 @@
 +++
 date = "2016-08-25T22:05:07+02:00"
-prev = "/1developing_for_utn/filezilla"
+prev = "/developing_for_utn/filezilla"
 title = "Database Access (Datagrip)"
 toc = true
 weight = 25

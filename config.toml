@@ -13,3 +13,6 @@ theme = "hugo-theme-learn"
   description = "The documentation of UTN's IT systems"
   # Shows a checkmark for visited pages on the menu. Default to false
   showVisitedLinks = false
+  # Menu definition
+  menu = [ "introduction", "developing_for_utn", "infrastructure", "applications", "server_software",
+  "development_tools", "hall_of_fame" ]

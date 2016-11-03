@@ -1,7 +1,7 @@
 +++
 date = "2016-08-02T16:34:09+02:00"
-next = "/2infrastructure/glesys"
-prev = "/2infrastructure/google_apps"
+next = "/infrastructure/glesys"
+prev = "/infrastructure/google_apps"
 title = "Digital Ocean"
 toc = true
 weight = 15

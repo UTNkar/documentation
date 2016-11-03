@@ -1,6 +1,6 @@
 +++
 date = "2016-08-18T15:26:09+02:00"
-prev = "/3applications/register"
+prev = "/applications/register"
 title = "LimeSurvey"
 toc = true
 weight = 25

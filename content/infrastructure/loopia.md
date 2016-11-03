@@ -1,7 +1,7 @@
 +++
 date = "2016-08-18T12:01:38+02:00"
-next = "/2infrastructure/cloudflare"
-prev = "/2infrastructure/glesys"
+next = "/infrastructure/cloudflare"
+prev = "/infrastructure/glesys"
 title = "Loopia"
 toc = true
 weight = 35
@@ -24,4 +24,4 @@ hold the following domain names:
 - utnarm.se
 
 Most DNS entries are thus also managed at Loopia, however our main domain name
-*utn.se* is managed at [CloudFlare](/2infrastructure/cloudflare).
+*utn.se* is managed at [CloudFlare](/infrastructure/cloudflare).
