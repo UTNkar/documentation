@@ -12,7 +12,7 @@ Sending e-mail on the UTN servers is done using the
 on the servers in such a way that one can locally simply connect to `localhost`
 on port 25 using the SMTP protocol. In the current configuration the servers
 only send e-mail; mails send to any `utn.se` domain are handled by [Google
-Apps](/infrastructure/google_apps).
+Apps](/infrastructure/google_suite).
 
 {{% notice note %}}
 

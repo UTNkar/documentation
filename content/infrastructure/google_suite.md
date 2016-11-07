@@ -2,13 +2,14 @@
 date = "2016-08-02T16:34:01+02:00"
 next = "/infrastructure/digital_ocean"
 prev = "/infrastructure"
-title = "Google Apps"
+title = "Google Suite"
 toc = true
 weight = 5
 
 +++
 
-UTN's e-mail is managed by Google Apps. Through this service, UTN workers can
+
+UTN's e-mail is managed in Google Suite. Through this service, UTN workers can
 use all of Google's services and share their use within the UTN organization.
 The services that should be of particular interest to the UTN workers are the
 following:
@@ -19,18 +20,36 @@ Drive.
 - [calendar.utn.se](http://calendar.utn.se/), the UTN calendar - similar to
 Google Calendar.
 
-As an admin of the Google Apps organization, you will be able to access the
-settings of Google Apps through the [admin panel](https://admin.google.com),
+Various committees govern their own Google Suite account.  Although the system
+administrator has access to some of these, they are mostly governed by the
+committees themselves. The committees with their own Google Suites account are:
+
+- Balen
+- Forsränningen
+- Rally
+- TD-mottagningen
+- Utnarm
+- Valcom
+
+As an admin of the Google Suite organization, you will be able to access the
+settings of Google Suite through the [admin panel](https://admin.google.com),
 login using your UTN account.
+
+
+{{% notice note %}}
+
+Google Suite used to be called Google Apps.
+
+{{% /notice %}}
 
 ## Account Policy
 
 Within UTN all members that acquire a position as an official for UTN are
-allowed to have a Google Apps account. A Google Apps account allows the user to
+allowed to have a Google Suite account. A Google Suite account allows the user to
 have a "@utn.se" e-mail address and use 15 GB of memory for Google's cloud
 services. However because of the limited number of accounts available, for the
 sake of clarity in administration, and to keep the data available among the UTN
-officials, the following policy is used to govern the Google Apps accounts.
+officials, the following policy is used to govern the Google Suite accounts.
 
 The accounts for UTN are split in two categories: accounts that bound to a
 specific position(e.g., *admin@utn.se*), and accounts that are bound to a
@@ -45,7 +64,7 @@ holder of the position to remove files, e-mails, and other data that is no
 longer relevant or of a personal nature.
 
 Should the former holder of a position require continued access to the Google
-Apps account, a mutually agreeable temporary arrangement should be formed
+Suite account, a mutually agreeable temporary arrangement should be formed
 between the people involved.
 
 ### Personal Accounts
@@ -66,7 +85,7 @@ be lost.
 
 ## Single Sign On
 
-The Google Apps accounts can for various [Drupal-based](TODO:) applications be
+The Google Suite accounts can for various [Drupal-based](/applications/drupal7) applications be
 used to authenticate. As of the current moment the way in which the settings are
 arranged is working, but the settings themselves aren't accessible. The current
 strategy is thus: *if it ain't broken, don't fix it*.
