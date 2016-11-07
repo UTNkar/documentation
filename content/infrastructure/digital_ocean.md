@@ -34,7 +34,9 @@ their default positions (e.g., `/etc/nginx/sites-available/`). The files for the
 apps are found in `/var/www/`. The following web applications are running on
 Babbage:
 
-- [www.utn.se](https://www.utn.se) - UTN's Main Webpage (Drupal7-based)
+- [www.utn.se](https://www.utn.se) - UTN's Main Website (Drupal7-based)
+- [master.utn.se](https://master.utn.se) - The Master Reception Website
+(Drupal7-based)
 
 ## New server/droplet
 
