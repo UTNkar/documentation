@@ -40,4 +40,4 @@ Once you open the terminal the process becomes rather easy.
 
 4. Congratulations! You have generated a SSH key pair, send your public key to
 the [system administrator](mailto:admin@utn.se). (If you used the default
-location you can use the following command: `cat ~/.ssh/id_rsa`)
+location you can use the following command: `cat ~/.ssh/id_rsa.pub`)
