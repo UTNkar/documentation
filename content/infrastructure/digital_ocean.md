@@ -23,8 +23,10 @@ found in `/var/www/`. The following web applications are running on Turing:
 
 - [register.utn.se](https://register.utn.se) - The UTN Registry
 - [survey.utn.se](https://survey.utn.se) - LimeSurvey
-- [mfk.utn.se](https://mfk.utn.se) - MFK Reception's Website (contact:
+- [mfk.utn.se](https://mfk.utn.se) - MFK reception's website (contact:
 [hivemind@mfk.utn.se](mailto:Hivemind@mfk.utn.se))
+- [nvm.utn.se](https://nvm.utn.se) - NVM section website (contact:
+[nvm-tech@utn.se](mailto:nvm-tech@utn.se))
 
 ## Babbage
 
@@ -34,9 +36,20 @@ their default positions (e.g., `/etc/nginx/sites-available/`). The files for the
 apps are found in `/var/www/`. The following web applications are running on
 Babbage:
 
-- [www.utn.se](https://www.utn.se) - UTN's Main Website (Drupal7-based)
-- [master.utn.se](https://master.utn.se) - The Master Reception Website
+- [www.utn.se](https://www.utn.se) - UTN's main website (Drupal7-based)
+- [basar.utn.se](https://basar.utn.se) - The Basmottagningen website
 (Drupal7-based)
+- [forsranningen.utn.se](https://forsranningen.utn.se) - The River Rafting
+website (Drupal7-based)
+- [master.utn.se](https://master.utn.se) - The masters' reception website
+(Drupal7-based)
+- [polhacks.utn.se](https://polhacks.utn.se) - The Polhacks website
+(Drupal7-based)
+- [recce.utn.se](https://recce.utn.se) - The TD reception website
+(Drupal7-based)
+- [rally.utn.se](https://rally.utn.se) - The Rebus Rally website
+(Drupal7-based)
+- [utnarm.utn.se](https://utnarm.utn.se) - The UTNarm website (Drupal7-based)
 
 ## New server/droplet
 
