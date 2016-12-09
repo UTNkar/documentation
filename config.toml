@@ -6,7 +6,7 @@ theme = "hugo-theme-learn"
 [params]
   # Prefix URL to edit current page. Useful to give opportunity to people to create merge request for your doc.
   # See the config.toml file from this documentation site to have an example.
-  editURL = "https://gitlab.com/UTNkar/system-documentation/edit/master/content/"
+  editURL = "https://gitlab.com/UTNkar/system-documentation/blob/master/content/"
   # Author of the site, will be used in meta information
   author = "Jip J. Dekker"
   # Description of the site, will be used in meta information
