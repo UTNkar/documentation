@@ -16,5 +16,5 @@ Administrator to make the position bearable. The following tools/services are
 currently in use:
 
 - [Trello](/5development_tools/trello) - Issue Tracker
-- [GitLab](/5development_tools/gitlab) - Version Control
+- [GitHub](/5development_tools/github) - Version Control
 - [Ansible](/5development_tools/ansible) - Ansible

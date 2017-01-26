@@ -1,6 +1,6 @@
 +++
 date = "2016-08-17T13:14:16+02:00"
-prev = "/5development_tools/gitlab"
+prev = "/5development_tools/github"
 title = "Ansible"
 toc = true
 weight = 25
@@ -17,7 +17,7 @@ to launch a system.
 ### Setting up UTN Ansible
 
 The UTN Ansible files are located in a repository on
-[GitLab](/5development_tools/gitlab). Once you've installed Ansible, on your
+[GitHub](/5development_tools/github). Once you've installed Ansible, on your
 local machine, and cloned the repository, you have to take the following steps:
 
 - Create a file called `password.txt`, that contains the vault password (handed
