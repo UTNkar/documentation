@@ -22,6 +22,14 @@ following commands can be usefull:
 - `drush core-status`, shows the core status and locational settings.
 - `drush up`, update drupal core and modules (including database).
 
+{{% notice info %}}
+
+Your working directory needs to be within your drupal installation to execute
+any drush commands. This is the `public/` folder for our installations.
+
+{{% /notice %}}
+
+
 Drush will automatically make backups of the code before installing the new
 versions.
 
