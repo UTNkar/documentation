@@ -1,7 +1,5 @@
 +++
 date = "2016-08-02T16:34:01+02:00"
-next = "/infrastructure/digital_ocean"
-prev = "/infrastructure"
 title = "Google Suite"
 toc = true
 weight = 5

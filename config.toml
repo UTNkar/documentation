@@ -16,3 +16,5 @@ theme = "hugo-theme-learn"
   # Menu definition
   menu = [ "introduction", "developing_for_utn", "infrastructure", "applications", "server_software",
   "development_tools", "hall_of_fame" ]
+  # Automatically generates prev and next arrows
+  autoNav = true

@@ -1,6 +1,5 @@
 +++
 date = "2016-08-17T15:17:17+02:00"
-prev = "/4server_software/ufw"
 title = "Postfix"
 toc = true
 weight = 65

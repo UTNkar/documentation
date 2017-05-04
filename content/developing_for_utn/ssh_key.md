@@ -1,7 +1,5 @@
 +++
 date = "2016-08-25T19:29:58+02:00"
-next = "/developing_for_utn/filezilla"
-prev = "/developing_for_utn"
 title = "Server Access (SSH keys)"
 toc = true
 weight = 5

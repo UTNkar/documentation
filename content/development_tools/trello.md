@@ -1,6 +1,5 @@
 +++
 date = "2016-08-01T15:58:13+02:00"
-prev = "/5development_tools"
 title = "Trello"
 toc = true
 weight = 5

@@ -1,7 +1,5 @@
 +++
 date = "2016-08-28T18:11:05+02:00"
-next = "/5development_tools/ansible"
-prev = "/5development_tools/trello"
 title = "GitHub"
 toc = true
 weight = 15

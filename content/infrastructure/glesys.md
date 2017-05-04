@@ -1,7 +1,5 @@
 +++
 date = "2016-08-02T16:38:11+02:00"
-next = "/infrastructure/loopia"
-prev = "/infrastructure/digital_ocean"
 title = "GleSYS"
 toc = true
 weight = 25

@@ -1,7 +1,5 @@
 +++
 date = "2016-08-02T16:31:29+02:00"
-next = "/4server_software/mysql"
-prev = "/4server_software/php"
 title = "PostgreSQL"
 toc = true
 weight = 25

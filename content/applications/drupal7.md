@@ -1,7 +1,5 @@
 +++
 date = "2016-08-18T15:22:46+02:00"
-next = "/applications/register"
-prev = "/applications"
 title = "Drupal 7-based"
 toc = true
 weight = 5

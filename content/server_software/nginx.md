@@ -1,7 +1,5 @@
 +++
 date = "2016-08-02T16:30:18+02:00"
-next = "/4server_software/php"
-prev = "/4server_software/"
 title = "NGINX"
 toc = true
 weight = 5

@@ -1,7 +1,5 @@
 +++
 date = "2016-08-18T15:22:50+02:00"
-next = "/applications/limesurvey"
-prev = "/applications/drupal7"
 title = "Registry"
 toc = true
 weight = 15

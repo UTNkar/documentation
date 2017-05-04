@@ -1,7 +1,5 @@
 +++
 date = "2016-08-18T12:01:38+02:00"
-next = "/infrastructure/cloudflare"
-prev = "/infrastructure/glesys"
 title = "Loopia"
 toc = true
 weight = 35

@@ -2,10 +2,8 @@
 chapter = true
 date = "2016-08-01T15:21:39+02:00"
 icon = "<b>1. </b>"
-next = "/developing_for_utn/ssh_key"
 title = "Developing for UTN"
 weight = 0
-
 +++
 
 ### Chapter 1

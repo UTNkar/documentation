@@ -1,7 +1,5 @@
 +++
 date = "2016-08-02T15:40:49+02:00"
-next = "/4server_software/ufw"
-prev = "/4server_software/mysql"
 title = "Let's Encrypt"
 toc = true
 weight = 45

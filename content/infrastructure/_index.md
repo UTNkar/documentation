@@ -2,7 +2,6 @@
 chapter = true
 date = "2016-08-01T15:22:28+02:00"
 icon = "<b>2. </b>"
-next = "/infrastructure/google_suite"
 title = "Infrastructure"
 weight = 0
 

@@ -1,7 +1,5 @@
 +++
 date = "2016-08-25T21:11:41+02:00"
-next = "/developing_for_utn/datagrip"
-prev = "/developing_for_utn/ssh_key"
 title = "File Access (FileZilla)"
 toc = true
 weight = 15
