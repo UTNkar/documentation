@@ -1,23 +1,23 @@
 /* background behind the logo*/
-/*#header {
-    background: <color>;
-    border-color: <color>;
-}*/
+#header-wrapper {
+    background: #00459a;
+    border-color: #4D92E7;
+}
 
 /* Background color of the menu */
-/*#sidebar {
-  background-color: <color>;
-}*/
+#sidebar {
+  background-color: #2E2E2E;
+}
 
 /* Background color of the menu, when clicked */
-/*#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-  background-color: <color>;
-}*/
+#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+  background-color: #484848;
+}
 
 /* Color of all links, including arrows to get to previous and next pages */
-/*a {
-    color: <color>;
+a {
+    color: #00459a;
 }
 a:hover {
-   color: <color>;
-}*/
+   color: #4D92E7;
+}
