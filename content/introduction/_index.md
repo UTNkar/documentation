@@ -1,4 +1,5 @@
 +++
+chapter = true
 date = "2016-08-01T15:05:44+02:00"
 icon = ""
 title = "Introduction"
@@ -6,7 +7,9 @@ toc = true
 weight = 0
 +++
 
-Welcome! This is the documentation for the UTN IT systems.
+# Introduction
+
+Welcome to the documentation website for the UTN IT systems.
 
 For most UTN workers the first chapter will be the most important, but UTN
 maintains an open documentation system so it can be beneficial for everyone. We
