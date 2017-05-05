@@ -6,8 +6,11 @@ weight = 0
 
 +++
 
-### Chapter X
+### Chapter 3
 
-# Some Chapter title
+# Project Moore
 
-Lorem ipsum
+[Project Moore](https://github.com/UTNkar/moore) is a replacement for many of the UTN web applications. It is built
+using Wagtail and the Django framework, Project Moore intends to replace
+obfuscated custom applications. This is why this project keeps a high regard to
+programming practice and documentation. The project is hosted on [GitHub](https://github.com/UTNkar/moore).
