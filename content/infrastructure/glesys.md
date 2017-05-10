@@ -3,12 +3,16 @@ date = "2016-08-02T16:38:11+02:00"
 title = "GleSYS"
 toc = true
 weight = 25
-
 +++
+
+{{% notice info %}}
 
 The older UTN servers are hosted by [GleSYS](https://glesys.com). As these
 servers where still managed by Swedish System Administrators, they made the
-following documentation in Swedish.
+following documentation in Swedish. Most of these servers have/been or are
+planned to be removed.
+
+{{% /notice %}}
 
 ## Inledning
 
@@ -21,7 +25,7 @@ form av exempelvis antal processorkärnor och RAM-minne.
 
 ## Lista över servrar
 
-### webhost.utn.se
+### webhost.utn.se - [REMOVED]
 
 På denna server finns idag UTN:s medlemsregister.
 
@@ -43,7 +47,7 @@ detta.
 - Dess hårddisksutrymme minskar ständigt bland annat pga växande loggfiler.
 
 
-### main.utn.se
+### main.utn.se - [REMOVED]
 
 UTN:s hemsida
 
@@ -55,7 +59,7 @@ Programvara:
 Hosting:
 - www.utn.se
 
-### sections.utn.se
+### sections.utn.se - [DEPRECATED]
 Some of UTN:s sections have hosting on utn.se. Many also have test-sites that never where published. Most of the sites uses the www.utn.se drupal CMS as their template.
 
 Programvara:
@@ -71,7 +75,7 @@ Hosting:
 - sts.utn.se
 - w.utn.se
 
-### event.utn.se
+### event.utn.se - [REMOVED]
 
 UTN:s olika events hemsidor.
 
@@ -80,6 +84,12 @@ Programvara:
 - nginx som webserver.
 
 Hosting:
+- anmalan.rally.utn.se
+- anmalan.polhacks.utn.se
+- anmalan.forsranningen.utn.se
+- anmalan-balen.utn.se
+
+No longer hosting:
 - balen.utn.se
 - basar.utn.se
 - forsranningen.utn.se
@@ -89,10 +99,6 @@ Hosting:
 - recce.utn.se
 - utnarm.utn.se
 - match.polhacks.utn.se
-- anmalan.rally.utn.se
-- anmalan.polhacks.utn.se
-- anmalan.forsranningen.utn.se
-- anmalan-balen.utn.se
 
 ### files.utn.se
 
@@ -108,7 +114,7 @@ Hosting:
 
 - Owncloud fileserver (files.utn.se)
 
-### utnarm.utn.se
+### utnarm.utn.se - [REMOVED]
 
 Utnarms gamla hemsida låg här. De har numera flyttat över till Drupal på
 event.utn.se. Borde raderas, hör med utnarm om denna fortfarande används.
