@@ -8,8 +8,8 @@ weight = 25
 {{% notice info %}}
 
 The older UTN servers are hosted by [GleSYS](https://glesys.com). As these
-servers where still managed by Swedish System Administrators, they made the
-following documentation in Swedish. Most of these servers have/been or are
+servers were still managed by Swedish System Administrators, they made the
+following documentation in Swedish. Most of these servers have been or are
 planned to be removed.
 
 {{% /notice %}}
@@ -59,7 +59,7 @@ Programvara:
 Hosting:
 - www.utn.se
 
-### sections.utn.se - [DEPRECATED]
+### sections.utn.se - [REMOVED]
 Some of UTN:s sections have hosting on utn.se. Many also have test-sites that never where published. Most of the sites uses the www.utn.se drupal CMS as their template.
 
 Programvara:
@@ -75,21 +75,24 @@ Hosting:
 - sts.utn.se
 - w.utn.se
 
-### event.utn.se - [REMOVED]
+### event.utn.se
 
 UTN:s olika events hemsidor.
 
 Programvara:
+
 - Ubuntu 12.04 LTS
 - nginx som webserver.
 
 Hosting:
+
 - anmalan.rally.utn.se
 - anmalan.polhacks.utn.se
 - anmalan.forsranningen.utn.se
 - anmalan-balen.utn.se
 
 No longer hosting:
+
 - balen.utn.se
 - basar.utn.se
 - forsranningen.utn.se
