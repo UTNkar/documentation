@@ -14,7 +14,7 @@ follows a list of UTN's IT heroes and their merits.
 #### Johan Snider - (2017-)
 *System Administrator* - contact: \[[e-mail](mailto:johan.snider@gmail.com)\]
 
-#### Jip J. Dekker - (2016 - 2017)
+#### Jip J. Dekker - (2016-2017)
 *System Administrator* - contact: \[[www](https://dekker.one/);
 [e-mail](mailto:jip@dekker.one)\]
 
