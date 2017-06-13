@@ -5,21 +5,25 @@ toc = true
 weight = 5
 +++
 
-If you are currently working on the UTN IT systems, your treading where many
-have gone before. Although they have tried to make your life as easy as
-possible, some things may not have been included in the documentation. So both
-in the sense of *"Credit where credit is due"*, and as a form of history
-keeping, here follows a list of UTN's IT heroes and their merits.
+If you are developing the UTN IT systems, you're treading where many have gone
+before. Although these heroes have tried to make your life as easy as possible,
+some things may not have been included in the documentation. So both in the
+sense of *"Credit where credit is due"*, and as a form of history keeping, here
+follows a list of UTN's IT heroes and their merits.
 
-#### Jip J. Dekker - (2016)
-*System Administrator* - contact: \[[www](https://jip.dekker.li/);
-[e-mail](mailto:jip@dekker.li);\]
+#### Johan Snider - (2017-)
+*System Administrator* - contact: \[[e-mail](mailto:johan.snider@gmail.com)\]
+
+#### Jip J. Dekker - (2016 - 2017)
+*System Administrator* - contact: \[[www](https://dekker.one/);
+[e-mail](mailto:jip@dekker.one)\]
 
 - Introduced Ansible Deployments
 - Restructured DNS using CloudFlare
 - Migrated servers to Digital Ocean
 - Converted the UTN Registry to use PHP7/PostgreSQL
 - Creator of the documentation web application
+- Founded the Moore Project
 
 #### Martin Norlin - (2012-2015)
 *System Administrator* - contact: \[[e-mail](mailto:martin.norlin@utn.se)\]
