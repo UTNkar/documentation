@@ -24,6 +24,8 @@ follows a list of UTN's IT heroes and their merits.
 - Converted the UTN Registry to use PHP7/PostgreSQL
 - Creator of the documentation web application
 - Founded the Moore Project
+	- Created the new application system
+	- Created basic modules necessary to create a new home page
 
 #### Martin Norlin - (2012-2015)
 *System Administrator* - contact: \[[e-mail](mailto:martin.norlin@utn.se)\]
