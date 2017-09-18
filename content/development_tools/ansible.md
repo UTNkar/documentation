@@ -86,6 +86,9 @@ access, remove the line in the file containing their public key.
 After changes to the variables have been made, the `common.yml` playbook can be
 executed to call the role.
 
-### Notes
+{{% notice tip %}}
 
-If you are having problems with ssh and supplying your pass phrase try executing `ssh-add` to save your pass phrase so you don't have to supply it every time. 
+If you are having problems with ssh and supplying your passphrase try executing
+`ssh-add` to save your passphrase so you don't have to supply it every time.
+
+{{% /notice %}}
