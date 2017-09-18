@@ -1,11 +1,12 @@
 +++
+chapter = true
 date = "2016-08-01T15:22:03+02:00"
-icon = "<b>6. </b>"
+pre ="<b>6. </b>"
 title = "Development Tools"
-weight = 0
+weight = 65
 +++
 
-### Chapter 5
+### Chapter 6
 
 # Development Tools
 

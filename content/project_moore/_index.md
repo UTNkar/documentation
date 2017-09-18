@@ -1,9 +1,9 @@
 +++
+chapter = true
 date = "2017-05-05T11:25:21+02:00"
-icon = "<b>3. </b>"
+pre ="<b>3. </b>"
 title = "Project Moore"
-weight = 0
-
+weight = 35
 +++
 
 ### Chapter 3

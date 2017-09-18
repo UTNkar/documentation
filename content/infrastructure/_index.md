@@ -1,9 +1,9 @@
 +++
 chapter = true
 date = "2016-08-01T15:22:28+02:00"
-icon = "<b>2. </b>"
+pre ="<b>2. </b>"
 title = "Infrastructure"
-weight = 0
+weight = 25
 
 +++
 

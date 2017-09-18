@@ -1,13 +1,13 @@
 +++
 chapter = true
 date = "2016-08-17T15:36:43+02:00"
-icon = "<b>4. </b>"
+pre ="<b>4. </b>"
 title = "Other Applications"
-weight = 0
+weight = 45
 +++
 
-### Chapter 3
+### Chapter 4
 
-# Applications
+# Other Applications
 
-Information on the web applications run by UTN itself.
+Information on the other web applications run by UTN itself.

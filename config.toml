@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "UTN System Documentation"
 theme = "hugo-theme-learn"
 
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
 [params]
   # Prefix URL to edit current page. Useful to give opportunity to people to create merge request for your doc.
   # See the config.toml file from this documentation site to have an example.
@@ -13,9 +16,7 @@ theme = "hugo-theme-learn"
   description = "The documentation of UTN's IT systems"
   # Shows a checkmark for visited pages on the menu. Default to false
   showVisitedLinks = false
-  # Menu definition
-  menu = [ "introduction", "developing_for_utn", "infrastructure",
-  "project_moore", "other_applications", "server_software", "development_tools",
-  "hall_of_fame"]
   # Automatically generates prev and next arrows
   autoNav = true
+  # Coloring of the documentation website
+  themeVariant = "blue" # TODO: Use custom UTN blue: https://learn.netlify.com/en/basics/style-customization/#yours-variant

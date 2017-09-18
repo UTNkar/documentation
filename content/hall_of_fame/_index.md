@@ -2,7 +2,7 @@
 date = "2016-08-18T16:20:37+02:00"
 title = "Hall of Fame"
 toc = true
-weight = 5
+weight = 75
 +++
 
 If you are developing the UTN IT systems, you're treading where many have gone
