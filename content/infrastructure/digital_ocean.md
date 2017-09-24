@@ -33,6 +33,7 @@ website (Drupal7-based)
 - [k.utn.se](https://k.utn.se) - The K section website (Drupal7-based)
 - [master.utn.se](https://master.utn.se) - The masters' reception website
 (Drupal7-based)
+- [nvk.utn.se](https://nvk.utn.se) - The NVK section website (Drupal7-based)
 - [polhacks.utn.se](https://polhacks.utn.se) - The Polhacks website
 (Drupal7-based)
 - [rally.utn.se](https://rally.utn.se) - The Rebus Rally website
