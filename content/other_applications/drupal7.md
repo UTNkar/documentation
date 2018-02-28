@@ -54,7 +54,7 @@ event server and Admin Google Drive. The process of installing is as follows:
   1. Unzip with
     * `unzip base.utn.se.zip base.sql.zip`
   1. On the server use cp to move the 'public' folder to the root directory of the new drupal site:
-    * `cp -R public/ ../../../var/www/nvb.utn.se/public`
+    * `cp -R public/ ../../../var/www/<site-name>.utn.se/public`
 3. Restore the database from the backup SQL file.
     * `mysql -u[user] -p [database] < balen.sql`
     * Where user is the user created in step 1 and the database is the name of the database. And `balen.sql` is what was unzipped from the `base.sql.zip`
