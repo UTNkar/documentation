@@ -15,7 +15,7 @@ to launch a system.
 ### Setting up UTN Ansible
 
 The UTN Ansible files are located in a repository on
-[GitHub](/5development_tools/github). Once you've installed Ansible, on your
+[GitHub](/development_tools/github). Once you've installed Ansible, on your
 local machine, and cloned the repository, you have to take the following steps:
 
 - Create a file called `password.txt`, that contains the vault password (handed
