@@ -27,6 +27,12 @@ sudo password for that host.
 You should now be able to run all playbooks in the repository using
 `ansible-playbook [playbook]`.
 
+{{% notice tip %}}
+
+If you are getting an error saying `ansible is being run in a world writable directory`, you need to change the permissions on the ansible folder. Go to your home directory `cd ~` and enter `chmod 775 ansible`. 
+
+{{% /notice %}}
+
 ### A Quick Introduction
 
 Ansible is a deployment system. It helps automating the deployment of various
