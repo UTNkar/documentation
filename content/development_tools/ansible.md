@@ -29,7 +29,7 @@ You should now be able to run all playbooks in the repository using
 
 {{% notice tip %}}
 
-If you are getting an error saying `ansible is being run in a world writable directory`, you need to change the permissions on the ansible folder. Go to your home directory `cd ~` and enter `chmod 775 ansible`. 
+If you are getting an error saying `ansible is being run in a world writable directory`, you need to change the permissions on the ansible folder. Go to your ansible directory `cd /path/to/ansible` and execute `chmod 775 .`. 
 
 {{% /notice %}}
 
