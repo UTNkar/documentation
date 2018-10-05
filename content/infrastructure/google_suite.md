@@ -24,6 +24,7 @@ committees themselves. The committees with their own Google Suites account are:
 
 - Balen
 - Forsränningen
+- MFK
 - Rally
 - TD-mottagningen
 - Utnarm
