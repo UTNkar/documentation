@@ -16,7 +16,7 @@ Apps](/infrastructure/google_suite).
 {{% notice note %}}
 
 The installation of Postfix on the servers is done using an
-[Ansible](/5development_tools/ansible) role. For more information about the
+[Ansible](/development_tools/ansible) role. For more information about the
 installation, see the Ansible repository.
 
 {{% /notice %}}
