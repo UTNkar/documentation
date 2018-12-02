@@ -13,7 +13,7 @@ server might have.
 
 {{% notice tip %}}
 
-Most UTN deployments are done using [Ansible](/5development_tools/ansible) and
+Most UTN deployments are done using [Ansible](/development_tools/ansible) and
 that the NGINX configurations for those applications is located within the
 Ansible repository.
 
