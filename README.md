@@ -15,6 +15,8 @@ improved, then feel free to write an issue, or even to make a pull request.
 
 ## Installation
 
+Clone the project with `git clone --recursive link`.
+
 This website is generated using [Hugo](gohugo.io). If you have Hugo installed,
 then it's a simple fact of running `hugo` within the directory. HTML files will
 be generated in the `public/` directory. These files can then be used to host
