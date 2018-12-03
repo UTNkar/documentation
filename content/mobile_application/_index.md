@@ -1,14 +1,13 @@
 +++
+title = "Mobile Application"
+date = 2018-12-03T18:17:45+01:00
+weight = 70
 chapter = true
-date = "2016-08-01T15:22:28+02:00"
-pre ="<b>2. </b>"
-title = "Infrastructure"
-weight = 25
-
+pre = "<b>7. </b>"
 +++
 
 ### Chapter 7
 
 # Mobile Application
 
-This chapter contains all information necessary to access the code of the mobile applications available for some of the events that UTN arranges.
+All information needed to develop and deploy the UTN mobile applications will be available here (at some point). 
