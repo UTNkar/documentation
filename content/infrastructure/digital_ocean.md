@@ -28,7 +28,6 @@ Babbage:
 - [es.utn.se](https://es.utn.se) - The ES section website (Drupal7-based)
 - [forsranningen.utn.se](https://forsranningen.utn.se) - The River Rafting
 website (Drupal7-based)
-- [grus.utn.se](https://grus.utn.se) - The GRUS section website (Drupal7-based)
 - [h.utn.se](https://h.utn.se) - The H section website (Drupal7-based)
 - [k.utn.se](https://k.utn.se) - The K section website (Drupal7-based)
 - [master.utn.se](https://master.utn.se) - The masters' reception website
@@ -53,6 +52,7 @@ server runs on Ubuntu 16.04. All files for Project Moore are located in the
 
 - [apply.utn.se](https://dev.utn.se) - Application website
 - [dev.utn.se](https://dev.utn.se) - The Tests website
+- [grus.utn.se](https://grus.utn.se) - The GRUS section website
 
 ## Turing
 
