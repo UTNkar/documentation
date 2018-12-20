@@ -42,6 +42,7 @@ website (Drupal7-based)
 - [sts.utn.se](https://sts.utn.se) - The STS section website (Drupal7-based)
 - [utnarm.utn.se](https://utnarm.utn.se) - The UTNarm website (Drupal7-based)
 - [w.utn.se](https://w.utn.se) - The W section website (Drupal7-based)
+- [x.utn.se](https://x.utn.se) - The X section website (Drupal7-based)
 
 ## Moore
 
