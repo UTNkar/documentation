@@ -55,6 +55,7 @@ server runs on Ubuntu 16.04. All files for Project Moore are located in the
 - [apply.utn.se](https://dev.utn.se) - Application website
 - [dev.utn.se](https://dev.utn.se) - The Tests website
 - [grus.utn.se](https://grus.utn.se) - The GRUS section website
+- [wiki.utn.se](https://wiki.utn.se) - The Wiki for UTN
 
 ## Turing
 
