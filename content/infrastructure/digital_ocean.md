@@ -37,6 +37,7 @@ website (Drupal7-based)
 (Drupal7-based)
 - [rally.utn.se](https://rally.utn.se) - The Rebus Rally website
 (Drupal7-based)
+- [rallybot.utn.se](https://rallybot.utn.se) - The API for the Rebus Rally bot (Custom)
 - [recce.utn.se](https://recce.utn.se) - The TD reception website
 (Drupal7-based)
 - [sts.utn.se](https://sts.utn.se) - The STS section website (Drupal7-based)
