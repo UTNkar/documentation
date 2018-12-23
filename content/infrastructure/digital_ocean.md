@@ -14,7 +14,7 @@ Software](/server_software).
 
 ## Babbage
 
-The Babbage server, `babbage.utn.se`, runs Drupal7-based applications, using
+The Babbage server, `babbage.utn.se`, mainly runs Drupal7-based applications, using
 NGINX, PHP7 and MySQL. It runs on Ubuntu 16.04. All settings can be found in
 their default positions (e.g., `/etc/nginx/sites-available/`). The files for the
 apps are found in `/var/www/`. The following web applications are running on
