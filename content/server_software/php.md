@@ -7,7 +7,7 @@ weight = 15
 +++
 
 PHP based application on the UTN infrastructure are served using `php-fpm` and
-[NGINX](/4server_software/nginx). Currently all new deployments are done using
+[NGINX](/server_software/nginx). Currently all new deployments are done using
 PHP 7.
 
 So far, no special settings have been set for the PHP installation, should this
