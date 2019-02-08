@@ -87,12 +87,12 @@ Programvara:
 Hosting:
 
 - anmalan.rally.utn.se
-- anmalan.polhacks.utn.se
 - anmalan.forsranningen.utn.se
-- anmalan-balen.utn.se
+- anmalan.balen.utn.se
 
 No longer hosting:
 
+- anmalan.polhacks.utn.se
 - balen.utn.se
 - basar.utn.se
 - forsranningen.utn.se
