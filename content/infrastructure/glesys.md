@@ -334,6 +334,12 @@ Klart!
 
 ### HTTPS och säkerhetscertifikat
 
+{{% notice info %}}
+
+The documentation below is outdated since 8/2 2019. The servers on glesys now use [certbot](/server_sofware/certbot) instead in the same way that all the other servers do.
+
+{{% /notice %}}
+
 UTN:s servrar använder sig av ett så kallat wildcard (\*.utn.se)
 SSL-certrifikat. Detta innebär att alla adresser som slutar med utn.se
 (exempelvis utnarm.utn.se) kan använda detta certifikat för att kryptera
