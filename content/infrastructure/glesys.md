@@ -336,7 +336,7 @@ Klart!
 
 {{% notice info %}}
 
-The documentation below is outdated since 8/2 2019. The servers on glesys now use [certbot](/server_sofware/certbot) instead in the same way that all the other servers do.
+The documentation below is outdated since February 8th, 2019. The servers on glesys now use [certbot](/server_sofware/certbot) instead.
 
 {{% /notice %}}
 
