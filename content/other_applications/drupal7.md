@@ -34,8 +34,9 @@ versions.
 #### Creating a new admin account via Drush
 
 If you need to create a new admin account you can do so with drush using these commands:
+
 1. `drush user-create username --mail="mail@example.se" --password="your_password";`
-1. `drush user-add-role "administrator" username;`
+2. `drush user-add-role "administrator" username;`
 
 ### New Drupal 7 website
 
