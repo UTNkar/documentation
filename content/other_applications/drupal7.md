@@ -31,6 +31,12 @@ any drush commands. This is the `public/` folder for our installations.
 Drush will automatically make backups of the code before installing the new
 versions.
 
+#### Creating a new admin account via Drush
+
+If you need to create a new admin account you can do so with drush using these commands:
+1. `drush user-create username --mail="mail@example.se" --password="your_password";`
+1. `drush user-add-role "administrator" username;`
+
 ### New Drupal 7 website
 
 Because the template is rather peculiar (to say the least), it is best to start
