@@ -55,7 +55,8 @@ server runs on Ubuntu 16.04. All files for Project Moore are located in the
 - [dev.utn.se](https://dev.utn.se) - The Tests website
 - [grus.utn.se](https://grus.utn.se) - The GRUS section website
 - [wiki.utn.se](https://wiki.utn.se) - The Wiki for UTN
-- [iupak.utn.se](https://iupak.utn.se) - The NVK section website
+- [iupak.utn.se](https://iupak.utn.se) - The NVK(IUPAK) section website
+
 ## Turing
 
 The Turing server, `turing.utn.se`, runs web apps that use PHP7, NGINX and
