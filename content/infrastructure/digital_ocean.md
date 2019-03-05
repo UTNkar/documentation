@@ -32,7 +32,6 @@ website (Drupal7-based)
 - [k.utn.se](https://k.utn.se) - The K section website (Drupal7-based)
 - [master.utn.se](https://master.utn.se) - The masters' reception website
 (Drupal7-based)
-- [nvk.utn.se](https://nvk.utn.se) - The NVK section website (Drupal7-based)
 - [polhacks.utn.se](https://polhacks.utn.se) - The Polhacks website
 (Drupal7-based)
 - [rally.utn.se](https://rally.utn.se) - The Rebus Rally website
@@ -52,11 +51,11 @@ intent on replacing several part of the UTN application infrastructure. The
 server runs on Ubuntu 16.04. All files for Project Moore are located in the
 `/var/www/` folder. The following urls are used by Project Moore:
 
-- [apply.utn.se](https://dev.utn.se) - Application website
+- [apply.utn.se](https://apply.utn.se) - Application website
 - [dev.utn.se](https://dev.utn.se) - The Tests website
 - [grus.utn.se](https://grus.utn.se) - The GRUS section website
 - [wiki.utn.se](https://wiki.utn.se) - The Wiki for UTN
-
+- [iupak.utn.se](https://iupak.utn.se) - The NVK section website
 ## Turing
 
 The Turing server, `turing.utn.se`, runs web apps that use PHP7, NGINX and
