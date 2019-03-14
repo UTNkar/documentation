@@ -8,14 +8,9 @@ documented within this website.
 The website is currently hosted on:
 [docs.utn.se](https://docs.utn.se/introduction/).
 
-## Contributing
-
-We welcome contributions from everyone! So if you feel something should be
-improved, then feel free to write an issue, or even to make a pull request.
-
 ## Installation
 
-Clone the project with `git clone --recursive link`.
+Clone the project with `git clone --recursive link_to_this_repository`.
 
 This website is generated using [Hugo](gohugo.io). If you have Hugo installed,
 then it's a simple fact of running `hugo` within the directory. HTML files will
@@ -24,3 +19,8 @@ the website.
 
 Tip: while working on the website `hugo server` will host a local web server
 which will automatically update when changes are made.
+
+## Contributing
+
+We welcome contributions from everyone! So if you feel something should be
+improved, then feel free to write an issue, or even to make a pull request.
