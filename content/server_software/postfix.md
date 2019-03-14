@@ -20,3 +20,13 @@ The installation of Postfix on the servers is done using an
 installation, see the Ansible repository.
 
 {{% /notice %}}
+
+### SMTP
+In 2018, many emails failed to get delivered. This was solved by using the SMTP relay provided by Google Suite. This requires some extra setup on the union's Google Suite. This setup can be found at the [Admin page](https://admin.google.com) for the Google Suite under `Apps -> Gsuite -> Gmail -> Advanced Settings`. On this site you should find `SMTP-relay service` under `forwarding`.
+
+{{% notice warning %}}
+
+As of writing this, only the **turing** server has been setup to use this SMTP relay. This needs to be fixed on all servers. Remove this message once this has been fixed.
+
+{{% /notice %}}
+
