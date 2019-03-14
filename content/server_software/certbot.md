@@ -14,7 +14,7 @@ instructions can be found on the [certbot
 website](https://certbot.eff.org/#ubuntuxenial-other).
 
 When using NGINX, the certificates can be easily acquired using the following
-command `sudo certbot certonly --webroot -w /var/www/XXXXX -d XXXXX`, where
+command `sudo certbot certonly --webroot -w /var/www/XXXXX/public -d XXXXX`, where
 `XXXXX` is replaced by the domain name of the applicaton. We currently do not
 use the automatic NGINX configuration functionality of certbot.
 
