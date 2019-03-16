@@ -29,7 +29,7 @@ You should now be able to run all playbooks in the repository using
 
 {{% notice tip %}}
 
-If you are getting an error saying `ansible is being run in a world writable directory`, you need to change the permissions on the ansible folder. Go to your ansible directory `cd /path/to/ansible` and execute `chmod 775 .`. 
+If you are getting an error saying `ansible is being run in a world writable directory`, you need to change the permissions on the ansible folder. Go to your ansible directory `cd /path/to/ansible` and execute `chmod 775 .`.
 
 {{% /notice %}}
 
@@ -72,7 +72,13 @@ all servers.
 - `webserver.yml` - Installs and configures extra requirements for the
 webservers (e.g., install a mail server)
 
-### Managing logins
+{{% notice tip %}}
+
+When running playbooks that operate on multiple servers you have to use `ssh-add` to save your passphrase so you don't have to supply it manually. If you can't run `ssh-add` try running `eval $(ssh-agent -s)`.
+
+{{% /notice %}}
+
+### Managing users and logins
 
 Currently the logins are managed using the logins role in Ansible. Most
 management is done in the `vars/users.yml` file, which contains all variables
@@ -80,21 +86,22 @@ used by the role to determine which user has an account on which server.
 
 Most accounts are shared by a committee, these account have the name of the
 (abbreviation of the) committee. However, management at UTN, like the system
-administrator, get their own personal account. To add an account create a new
-entry in the `users` variable. To remove an account add the account name to the
-`old_users` variable.
+administrator, get their own personal account.
 
 Access to shared accounts is managed using the SSH keys, these keys are stored
 in `files/pubkeys` and have the name of the account. To give someone access to
-the account, add their public key on a new line in the file. To take away their
+the account, add their public key on a new line in the file. This means that multiple people can have access to the same account. To take away their
 access, remove the line in the file containing their public key.
 
+When a committee or section switches to a new group of people, a new public key must be made for that person. This is because only those who should have access shold have access.
+When you get a new key from the new person make sure to remove the public key of the old person.
+
+#### Add a user
+To add an account create a new entry in `vars/users` by copying another user and changing the parameters.
+
+#### Remove a user
+To remove an account add the account name to the `old_users` variable and remove it from the `user` variable.
+
+#### Apply changes
 After changes to the variables have been made, the `common.yml` playbook can be
-executed to call the role.
-
-{{% notice tip %}}
-
-If you are having problems with ssh and supplying your passphrase try executing
-`ssh-add` to save your passphrase so you don't have to supply it every time.
-
-{{% /notice %}}
+executed to perform the changes.
