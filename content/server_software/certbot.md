@@ -10,15 +10,15 @@ The SSL certificates for all web applications on the UTN servers are provided by
 [Let's Encrypt](https://letsencrypt.org/). This initiative provides free short
 term SSL certificates for all websites. Let's Encrypt certificates can be
 aquired using certbot, an automated Let's Encrypt client. Installation
-instructions can be found on the [certbot
-website](https://certbot.eff.org/#ubuntuxenial-other).
-
-When using NGINX, the certificates can be easily acquired using the following
-command `sudo certbot certonly --webroot -w /var/www/XXXXX/public -d XXXXX`, where
-`XXXXX` is replaced by the domain name of the applicaton.
-
-We currently do not
+instructions can be found on the [certbot website](https://certbot.eff.org/#ubuntuxenial-other). We currently do not
 use the automatic NGINX configuration functionality of certbot. This is because certbot overrides the NGINX configuration we have added via ansible when we created the sites.
+
+#### Create a new certificate
+A new certificate can be easily acquired using the following command 
+`sudo certbot certonly --webroot -w /var/www/XXXXX/public -d XXXXX`, where `XXXXX` is replaced by the domain name of the applicaton.
+
+#### Remove an existing certificate
+Removing an existing certificate is also easy. Use the following command `sudo certbot delete --cert-name XXXXX.utn.se`, where XXXXX is replaced by the domain name of the application.
 
 {{% notice note %}}
 This assumes that the files are located in the */var/www*
