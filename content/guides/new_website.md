@@ -21,7 +21,7 @@ A common task for the system administrator is to setup new webistes. Thankfully 
     * The *value* should be the full link to the server that you will place the website on.
     * Some sites need to have Cloudflares proxy (the cloud) activated and some need it to be turned off. Look at simillar records to see if it should be turned on or off.
 
-3. Create a new user or select a existing one that will become the owner of the website. Instructions for creating a new user can be found on the [ansible page](/development_tools/ansible/).
+3. Create a new user or select a existing one that will become the owner of the website. Instructions for creating a new user can be found on the [ansible page](/development_tools/ansible/#add-a-user).
 
 4. Create a password for the database that will be created by running `ansible-vault edit vars/passwords.yml`. Use a password generator to create the password (at least 16 characters!).
 
