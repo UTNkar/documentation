@@ -39,20 +39,20 @@ Ansible is a deployment system. It helps automating the deployment of various
 tasks while managing a server pool. Ansible repositories are rather rationally
 split up into several parts:
 
-- Playbooks are collections of tasks working to a common goal (for the
+- *Playbooks* are collections of tasks working to a common goal (for the
 deployment) of an application. These files can be seen as recipes. These files
 are also the main part of the repositories, these files will be run, using the
 other files as resources.
-- Roles are collections of tasks that will most likely be used in various
+- *Roles* are collections of tasks that will most likely be used in various
 playbooks. Each role has a similar folder structure to the main Ansible
 repository; this means that a role can be self-contained in the resources it
 needs.
-- Handlers are tasks that can be invoked when a tasks actually changes
+- *Handlers* are tasks that can be invoked when a tasks actually changes
 something. These are usually *reload* or *restart* tasks. Handlers are stored
 at the bottom of a playbook, tasks file, or in the `handlers` directory.
-- Variables are located in among others the `vars` and `host_vars` directories.
+- *Variables* are located in among others the `vars` and `host_vars` directories.
 The use of variables can help to avoid making duplicate playbooks/roles.
-- Templates are files that have interleaved variables, these can be used to
+- *Templates* are files that have interleaved variables, these can be used to
 easily use the same file for multiple deployments. These files are located in
 the `templates`
 - Regular files used are located in the `files` directory.
@@ -63,16 +63,21 @@ share the repository publicly without sharing the passwords. To edit the content
 
 ### UTN Playbooks
 
-Most Playbooks in UTN Ansible repository are simple deployments of applications
-named after the application they deploy. However, there are a few special
-playbooks. Here follows a list of the playbooks and their function:
+These are the playbooks that currently exist within the unions [ansible repository](https://github.com/utnkar/ansible).
 
 - `common.yml` - Meant to execute initial server configuration (e.g., manage
 users, add firewall).
+- `custom_web.yml` - Deploys the applications specified in `vars/custom_installations.yml` to *turing*.
+- `custom_web_babbage.yml` - Deploys the applications specified in `vars/custom_installations_babbage.yml` to *babbage*.
+These applications aren't made with drupal so they need to be in their own playbook.
+- `documentation.yml` - Gets the latest version from the documentation github repo and updates the documentation on this website.
+- `drupal7.yml` - Deploys all drupal 7 applications specifies in `vars/drupal7_installations.yml` to *babbage*.
+- `moore.yml` - Updates moore to the latest version on the master branch in the moore github repo.
+- `survey.yml` - Deploys limesurvey to *turing*.
 - `upgrade.yml` - Playbook to run `apt-get update` & `apt-get distupgrade` on
 all servers.
 - `webserver.yml` - Installs and configures extra requirements for the
-webservers (e.g., install a mail server)
+webservers (e.g., install a mail server).
 
 {{% notice tip %}}
 
