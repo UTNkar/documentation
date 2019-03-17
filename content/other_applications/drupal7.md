@@ -21,10 +21,7 @@ following commands can be usefull:
 - `drush up`, update drupal core and modules (including database).
 
 {{% notice info %}}
-
-Your working directory needs to be within your drupal installation to execute
-any drush commands. This is the `public/` folder for our installations.
-
+When using drush you must be in the `public/` folder.
 {{% /notice %}}
 
 
