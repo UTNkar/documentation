@@ -11,6 +11,7 @@ For any project that is enriched by version control, UTN has a repository on
 [organization](https://github.com/UTNkar). This organization is under the
 control of the system administrator and access to various projects can be
 granted to any contributor within UTN.
+Currently, the Github is using the *team* billing plan which allows us to have more members on the Github.
 
 Some projects can be made public, this might improve the quality of a project as
 everyone is able to contribute to the project. However, note that some of these
