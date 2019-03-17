@@ -21,7 +21,7 @@ A common task for the system administrator is to setup new webistes. Thankfully 
 
 3. Create a new user or select a existing one that will become the owner of the website. Instructions for creating a new user can be found on the [ansible page](/development_tools/ansible/).
 
-4. Create a password for the database that will be created. Instructions can be found on the [ansible page](/development_tools/ansible/).
+4. Create a password for the database that will be created by running `ansible-vault edit vars/passwords.yml`. Use a password generator to create the password (at least 16 characters!).
 
 5. Find the correct file in the *ansible/vars* folder and add the new site by copying another site and changing the paremeters. The files in *ansible/vars* are explained on the [ansible page](/development_tools/ansible/).
     * Set the *template* variable to `temp-http`. This is because all other templates requires SSL certificates which we will create in a later step.
@@ -50,8 +50,8 @@ If you are creating a new site with **Drupal** you must perform the steps bellow
 
 4. Copy the extracted files to the new site with `cp -R --no-preserve=mode,ownership balen.utn.se/public/ /var/www/<site-name>.utn.se/`
 
-5. Import data to the database from the extracted sql file with `mysql -u[user] -p [database] < balen.sql` 
-    * *user* is the user you created/selected before. 
+5. Import data to the database from the extracted sql file with `mysql -u[user] -p [database] < balen.sql`
+    * *user* is the user you created/selected before.
     * When you get prompted for a password, use the password you created before.
 
 6. Edit the following settings in `/var/www/<site-name>.utn.se/public/sites/default/settings.php`

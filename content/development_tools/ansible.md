@@ -51,13 +51,15 @@ needs.
 something. These are usually *reload* or *restart* tasks. Handlers are stored
 at the bottom of a playbook, tasks file, or in the `handlers` directory.
 - Variables are located in among others the `vars` and `host_vars` directories.
-The use of variables can help to avoid making duplicate playbooks/roles. (Some
-variables might be encrypted using `ansible-vault`, this makes it possible to
-share the repository publicly without sharing the passwords used)
+The use of variables can help to avoid making duplicate playbooks/roles.
 - Templates are files that have interleaved variables, these can be used to
 easily use the same file for multiple deployments. These files are located in
 the `templates`
 - Regular files used are located in the `files` directory.
+
+#### The Vault
+Some variables are encrypted with the use of `ansible-vault` such as the passwords. This makes it possible to
+share the repository publicly without sharing the passwords. To edit the contents use `ansible-vault edit path/to/file.yml`. You can also simply view the contents by switching `edit` with `view`.
 
 ### UTN Playbooks
 
