@@ -11,8 +11,19 @@ some things may not have been included in the documentation. So both in the
 sense of *"Credit where credit is due"*, and as a form of history keeping, here
 follows a list of UTN's IT heroes and their merits.
 
-#### Johan Snider - (2017-)
+#### Daniel Fehrm - (2018-2019)
+*System Administrator* - contact: \[[e-mail](mailto:daniel@fehrm.se)\]
+
+- Upgraded the union's GitHub to the team plan
+- Revived the website for Kårsamverkan
+- Added SSL certificates to the sites hosted on GleSys
+- Added Guides to the documentation
+- Changed so that postfix uses SMTP
+
+#### Johan Snider - (2017-2018)
 *System Administrator* - contact: \[[e-mail](mailto:johan.snider@gmail.com)\]
+
+- Made sure things kept running
 
 #### Jip J. Dekker - (2016-2017)
 *System Administrator* - contact: \[[www](https://dekker.one/);
