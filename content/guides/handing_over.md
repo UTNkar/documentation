@@ -33,7 +33,7 @@ When handing over the position, the following things must be done
 
 **The new admin must also setup ansible on his/her computer:**
 
-- Install ansible. Instructions can be found [here](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+- Install ansible. Instructions can be found [here](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html). If the new admin uses windows, he/she can use `ubuntu for windows` to install ansible.
 - Follow the [installation instructions](/development_tools/ansible/) for the UTN ansible repository
 
 **The admin should also be aware of the following things:**
