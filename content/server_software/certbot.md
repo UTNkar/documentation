@@ -17,6 +17,9 @@ use the automatic NGINX configuration functionality of certbot. This is because 
 A new certificate can be easily acquired using the following command 
 `sudo certbot certonly --webroot -w /var/www/XXXXX/public -d XXXXX`, where `XXXXX` is replaced by the domain name of the applicaton.
 
+##### Moore
+On moore, you must use the following command since the structure is a bit different: `sudo certbot certonly --webroot -w /var/www/moore/src/media -d moore.utn.se`. To add more domain names, add `-d domain.name.se` to the end of the command for all domains you want to add.
+
 #### Remove an existing certificate
 Removing an existing certificate is also easy. Use the following command `sudo certbot delete --cert-name XXXXX.utn.se`, where XXXXX is replaced by the domain name of the application.
 
