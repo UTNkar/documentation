@@ -13,14 +13,15 @@ aquired using certbot, an automated Let's Encrypt client. Installation
 instructions can be found on the [certbot website](https://certbot.eff.org/#ubuntuxenial-other). We currently do not
 use the automatic NGINX configuration functionality of certbot. This is because certbot overrides the NGINX configuration we have added via ansible when we created the sites.
 
-#### Create a new certificate
+### Create a new certificate
 A new certificate can be easily acquired using the following command 
 `sudo certbot certonly --webroot -w /var/www/XXXXX/public -d XXXXX`, where `XXXXX` is replaced by the domain name of the applicaton.
 
-##### Moore
-On moore, you must use the following command since the structure is a bit different: `sudo certbot certonly --webroot -w /var/www/moore/src/media -d moore.utn.se`. To add more domain names, add `-d domain.name.se` to the end of the command for all domains you want to add.
+#### Moore
+On moore, you must use the following command since the structure is a bit different: `sudo certbot certonly --webroot -w /var/www/moore/src/media --cert-name moore.utn.se -d moore.utn.se`. To add more domain names, add `-d domain.name.se` to the end of the command for all domains you want to add.
+To remove a domain, run this command with all current domains except for the ones you want to remove. [[documentation](https://certbot.eff.org/docs/using.html?highlight=domain#changing-a-certificate-s-domains)]
 
-#### Remove an existing certificate
+### Remove an existing certificate
 Removing an existing certificate is also easy. Use the following command `sudo certbot delete --cert-name XXXXX.utn.se`, where XXXXX is replaced by the domain name of the application.
 
 {{% notice note %}}
