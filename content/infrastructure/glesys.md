@@ -14,6 +14,12 @@ planned to be removed.
 
 {{% /notice %}}
 
+{{% notice info %}}
+
+To ssh into event.utn.se, you must use port 2002. `ssh event.utn.se -p 2002`
+
+{{% /notice %}}
+
 ## Inledning
 
 UTN har idag ett flertal olika servrar hos hosting företaget Glesys
