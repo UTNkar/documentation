@@ -10,7 +10,7 @@ weight = 25
 ![Involvement Admin Menu](/images/moore/involvement_menu.png)
 
 Under the menu tab involvement there is a sub menu containing the following
-tabs:ß
+tabs:
 
 -  Teams – Handles creation of groups and committees, here you can add new teams
 and edit existing ones.
