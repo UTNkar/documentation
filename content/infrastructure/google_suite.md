@@ -27,7 +27,7 @@ committees themselves. The committees with their own Google Suites account are:
 - Rally
 - TD-mottagningen
 - Utnarm
-- Valcom
+- Valcom (GB-mottagningen)
 
 As an admin of the Google Suite organization, you will be able to access the
 settings of Google Suite through the [admin panel](https://admin.google.com),
