@@ -24,8 +24,6 @@ committees themselves. The committees with their own Google Suites account are:
 
 - Balen
 - MFK
-- Rally
-- TD-mottagningen
 - Utnarm
 - Valcom (GB-mottagningen)
 
