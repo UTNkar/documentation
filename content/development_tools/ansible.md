@@ -55,16 +55,30 @@ The use of variables can help to avoid making duplicate playbooks/roles.
 - *Templates* are files that have interleaved variables, these can be used to
 easily use the same file for multiple deployments. These files are located in
 the `templates`
+- *Tags* can be used to perform or skip certain tasks. Use the flags `--tags="tag1,tag2,..."` or `--skip-tags="tag1, tag2,..."` when running a playbook.
 - Regular files used are located in the `files` directory.
 
 #### The Vault
 Some variables are encrypted with the use of `ansible-vault` such as the passwords. This makes it possible to
-share the repository publicly without sharing the passwords. To edit the contents use `ansible-vault edit path/to/file.yml`. You can also simply view the contents by switching `edit` with `view`.
+share the repository **publicly without sharing the passwords**.
+
+To edit the contents use `ansible-vault edit path/to/file.yml`. 
+
+To view the contents use `ansible-vault view path/to/file.yml`. 
 
 ### UTN Playbooks
 
 These are the playbooks that currently exist within the unions [ansible repository](https://github.com/utnkar/ansible).
 
+#### moore.yml
+Sets up dependencies and the database and updates project moore to the latest version on the master branch in the moore github repo. 
+
+**Available tags**
+
+- `setup`: runs all steps that setup dependencies and database. 
+- `deploy`: runs all steps that downloads and installs the latest version of moore.
+
+#### Other playbooks
 - `common.yml` - Meant to execute initial server configuration (e.g., manage
 users, add firewall).
 - `custom_web.yml` - Deploys the applications specified in `vars/custom_installations.yml` to *turing*.
@@ -72,7 +86,6 @@ users, add firewall).
 These applications aren't made with drupal so they need to be in their own playbook.
 - `documentation.yml` - Gets the latest version from the documentation github repo and updates the documentation on this website.
 - `drupal7.yml` - Deploys all drupal 7 applications specifies in `vars/drupal7_installations.yml` to *babbage*.
-- `moore.yml` - Updates moore to the latest version on the master branch in the moore github repo.
 - `survey.yml` - Deploys limesurvey to *turing*.
 - `upgrade.yml` - Playbook to run `apt-get update` & `apt-get distupgrade` on
 all servers.
