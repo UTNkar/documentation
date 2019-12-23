@@ -71,6 +71,7 @@ To view the contents use `ansible-vault view path/to/file.yml`.
 These are the playbooks that currently exist within the unions [ansible repository](https://github.com/utnkar/ansible).
 
 #### moore.yml
+
 Sets up dependencies and the database and updates project moore to the latest version on the master branch in the moore github repo. 
 
 **Available tags**
@@ -78,13 +79,21 @@ Sets up dependencies and the database and updates project moore to the latest ve
 - `setup`: runs all steps that setup dependencies and database. 
 - `deploy`: runs all steps that downloads and installs the latest version of moore.
 
+#### documentation.yml
+
+Gets the latest version from the documentation github repo and updates the documentation on this website.
+
+**Available tags**
+
+- `deploy`: runs all steps that updates the documentation to the latest version
+- `nginx`: runs the steps necessary to configure nginx for the documentation website
+
 #### Other playbooks
 - `common.yml` - Meant to execute initial server configuration (e.g., manage
 users, add firewall).
 - `custom_web.yml` - Deploys the applications specified in `vars/custom_installations.yml` to *turing*.
 - `custom_web_babbage.yml` - Deploys the applications specified in `vars/custom_installations_babbage.yml` to *babbage*.
 These applications aren't made with drupal so they need to be in their own playbook.
-- `documentation.yml` - Gets the latest version from the documentation github repo and updates the documentation on this website.
 - `drupal7.yml` - Deploys all drupal 7 applications specifies in `vars/drupal7_installations.yml` to *babbage*.
 - `survey.yml` - Deploys limesurvey to *turing*.
 - `upgrade.yml` - Playbook to run `apt-get update` & `apt-get distupgrade` on
