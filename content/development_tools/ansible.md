@@ -104,24 +104,23 @@ Currently the logins are managed using the logins role in Ansible. Most
 management is done in the `vars/users.yml` file, which contains all variables
 used by the role to determine which user has an account on which server.
 
-Most accounts are shared by a committee, these account have the name of the
-(abbreviation of the) committee. However, management at UTN, like the system
-administrator, get their own personal account.
-
-Access to shared accounts is managed using the SSH keys, these keys are stored
+Access to accounts is managed using the SSH keys, these keys are stored
 in `files/pubkeys` and have the name of the account. To give someone access to
 the account, add their public key on a new line in the file. This means that multiple people can have access to the same account. To take away their
 access, remove the line in the file containing their public key.
 
-When a committee or section switches to a new group of people, a new public key must be made for that person. This is because only those who should have access shold have access.
-When you get a new key from the new person make sure to remove the public key of the old person.
+When a committee or section switches to a new group of people, a new public key must be made for every person. This is because only those who should have access shold have access. 
 
-#### Add a user
-To add an account create a new entry in `vars/users` by copying another user and changing the parameters.
+#### How to add a user
+
+1. Send the new user the instructions found [here](/developing_for_utn/ssh_key/).
+2. When you get a new key from the new person, remove the public key of the old person.
+3. Create a new entry in `vars/users.yml` by copying another user and changing the parameters.
+4. Apply changes
 
 #### Remove a user
-To remove an account add the account name to the `old_users` variable and remove it from the `user` variable.
+To remove an account, add the account name to the `old_users` variable and remove it from the `user` variable in `vars/users.yml`. Then apply the changes.
 
 #### Apply changes
-After changes to the variables have been made, the `common.yml` playbook can be
-executed to perform the changes.
+
+Apply the changes by running `common.yml`.
