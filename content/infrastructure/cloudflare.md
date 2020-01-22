@@ -5,7 +5,7 @@ toc = true
 weight = 45
 +++
 
-The domain *utn.se* is managed at [CloudFlare](https://www.cloudflare.com/).
+The domains **utn.se** and **utnarm.se** is managed at [CloudFlare](https://www.cloudflare.com/).
 CloudFlare is a free service that helps both optimize the access to web server
 by caching pages, but also protect the website against threats. It does this by
 interrupting a client from accessing the actual server if it might be a
