@@ -31,6 +31,21 @@ should use the CloudFlare proxy.
 - **MX-records** are added for all domains that are used to send emails..
 - **TXT-records** are made for various records such as SPF and DKIM.
 
+### Page Rules
+
+Cloudflare has a feature called page rules.
+With these rules you can apply different rules to different websites.
+One of these rules are to redirect a website. 
+Redirects should not be deleted since they previous were the main website which were then switched.
+During the time before the switch the original URL will exist on many places. 
+If someone then goes to the original URL they wont get where they wanted and will become confused.
+Currently the following redirects exist on **utn.se**:
+
+- **utnarm.utn.se** goes to **utnarm.se**
+- **w.utn.se** goes to **wsektionen.se**
+
+In the free plan, only 3 page rules are included.
+
 ### SPF Record
 
 SPF records are essential when dealing with email since they increase the validity of the emails sent from the union.
