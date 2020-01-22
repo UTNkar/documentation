@@ -24,7 +24,6 @@ committees themselves. The committees with their own Google Suites account are:
 
 - Balen
 - MFK
-- Utnarm
 - Valcom (GB-mottagningen)
 
 As an admin of the Google Suite organization, you will be able to access the
