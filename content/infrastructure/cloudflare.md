@@ -15,6 +15,10 @@ serve the page from cache if possible.
 CloudFlare keeps excessive data on requests, so it's interesting to take a look
 once in a while.
 
+### Cloudflare proxy
+
+Next to almost all DNS posts there is a cloud that can be orange or gray. This is the cloudflare proxy. If the cloud is orange the traffic to that domain goes through cloudflare and gets protected. If it is gray, cloudflare wont protect it and will just let traffic through.
+
 ### DNS Structure
 
 The DNS records have been organized in a specific structure, making managing the
@@ -22,14 +26,24 @@ DNS easier. The structure is as follows:
 
 - Each server (or physical device) has an **A-record** (and a **AAAA-record** if
 possible). These records have an alias (e.g., the name of the server), that is
-not used as a domain for a website/server. (Do not use the CloudFlare proxy for
-these.)
+not used as a domain for a website/server.
 - For each website or other sort of service a **CNAME-Record** is added for the
 domain name that the service uses to the alias of the server. These records
 should use the CloudFlare proxy.
-**NOTE:** CNAME records should not be used when a domain is used for email since it can cause undesirable effects.
 - **MX-records** are added for all domains that are used to send emails..
 - **TXT-records** are made for various records such as SPF and DKIM.
+
+### SSL/TLS settings
+
+Cloudflare provides some hadny features for dealing with SSL/TLS certificates. One of these features is that Cloudflare can create a and serve a ssl certificate for us. 
+
+*utn.se* and *utnarm.se* has this feature and uses the option **Full(strict)**. This option means that traffic between users and cloudflare and the traffic between cloudflare and our servers will be end-to-end encrypted. One of the requirements for this is that the servers has a trusted CA which we create using [certbot](/server_software/certbot).
+
+{{% notice warning %}}
+
+When using a multi-level domain name (e.g. anmalan.rally.utn.se), the certificate provided by cloudflare is not valid since it only covers one level of subdomains (e.g. rally.utn.se).
+
+{{% /notice %}}
 
 ### Page Rules
 
