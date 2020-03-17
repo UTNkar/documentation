@@ -42,12 +42,13 @@ the `templates`
 - Regular files used are located in the `files` directory.
 
 #### The Vault
+
 Some variables are encrypted with the use of `ansible-vault` such as the passwords. This makes it possible to
 share the repository **publicly without sharing the passwords**.
 
-To edit the contents use `ansible-vault edit path/to/file.yml`. 
+To edit the contents use `ansible-vault edit path/to/file.yml`.
 
-To view the contents use `ansible-vault view path/to/file.yml`. 
+To view the contents use `ansible-vault view path/to/file.yml`.
 
 ### UTN Playbooks
 
@@ -55,11 +56,11 @@ These are the playbooks that currently exist within the unions [ansible reposito
 
 #### moore.yml
 
-Sets up dependencies and the database and updates project moore to the latest version on the master branch in the moore github repo. 
+Sets up dependencies and the database and updates project moore to the latest version on the master branch in the moore github repo.
 
 **Available tags**
 
-- `setup`: runs all steps that setup dependencies and database. 
+- `setup`: runs all steps that setup dependencies and database.
 - `deploy`: runs all steps that downloads and installs the latest version of moore.
 
 #### documentation.yml
@@ -72,6 +73,7 @@ Gets the latest version from the documentation github repo and updates the docum
 - `nginx`: runs the steps necessary to configure nginx for the documentation website
 
 #### Other playbooks
+
 - `common.yml` - Meant to execute initial server configuration (e.g., manage
 users, add firewall).
 - `custom_web.yml` - Deploys the applications specified in `vars/custom_installations.yml` to *turing*.
@@ -101,7 +103,7 @@ in `files/pubkeys` and have the name of the account. To give someone access to
 the account, add their public key on a new line in the file. This means that multiple people can have access to the same account. To take away their
 access, remove the line in the file containing their public key.
 
-When a committee or section switches to a new group of people, a new public key must be made for every person. This is because only those who should have access shold have access. 
+When a committee or section switches to a new group of people, a new public key must be made for every person. This is because only those who should have access shold have access.
 
 #### How to add a user
 
@@ -111,6 +113,7 @@ When a committee or section switches to a new group of people, a new public key 
 4. Apply changes
 
 #### Remove a user
+
 To remove an account, add the account name to the `old_users` variable and remove it from the `user` variable in `vars/users.yml`. Then apply the changes.
 
 #### Apply changes
