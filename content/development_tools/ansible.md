@@ -14,24 +14,7 @@ to launch a system.
 
 ### Setting up UTN Ansible
 
-The UTN Ansible files are located in a repository on
-[GitHub](/development_tools/github). Once you've installed Ansible, on your
-local machine, and cloned the repository, you have to take the following steps:
-
-- Create a file called `password.txt`, that contains the vault password (handed
-over from one system administrator to the next).
-- In the folder `host_vars`, create a file for each of the servers, named
-according to the FQDN of the server (e.g., `turing.utn.se`), containing your
-sudo password for that host.
-
-You should now be able to run all playbooks in the repository using
-`ansible-playbook [playbook]`.
-
-{{% notice tip %}}
-
-If you are getting an error saying `ansible is being run in a world writable directory`, you need to change the permissions on the ansible folder. Go to your ansible directory `cd /path/to/ansible` and execute `chmod 775 .`.
-
-{{% /notice %}}
+Installation instructions are located on [the GitHub repo](https://github.com/UTNkar/documentation/).
 
 ### A Quick Introduction
 
