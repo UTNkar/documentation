@@ -64,13 +64,13 @@ If you are creating a new site with **Drupal** you must perform the steps bellow
 
 7. You might have to run the drupal7 playbook again and change some permissions. TODO
 
-7. Update the website. To do this you must stand in the website's public directory `cd /var/www/<site-name>.utn.se/public`. Now run `drush up`.
+8. Update the website. To do this you must stand in the website's public directory `cd /var/www/<site-name>.utn.se/public`. Now run `drush up`.
 
-8. Go to the login page on the new site `<site-name>.utn.se/user` and request a new password. Your email is [admin@utn.se](mailto:admin@utn.se)
+9. Go to the login page on the new site `<site-name>.utn.se/user` and request a new password. Your email is [admin@utn.se](mailto:admin@utn.se)
 
-9. Once you've gained access, create a new admin user for the new owner of the website. Use a dummy password that the owner must change.
+10. Once you've gained access, create a new admin user for the new owner of the website. Use a dummy password that the owner must change.
 
-10. Send an email to the new owner with the good news!
+11. Send an email to the new owner with the good news!
 
 ## Instructions for Moore
 

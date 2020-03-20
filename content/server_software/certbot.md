@@ -19,7 +19,7 @@ If you add, update or remove a certificate you must reload nginx afterwards for 
 
 ### Create a new certificate
 
-A new certificate can be easily acquired using the following command 
+A new certificate can be easily acquired using the following command
 `sudo certbot certonly --webroot -w /var/www/XXXXX/public -d XXXXX`, where `XXXXX` is replaced by the domain name of the applicaton.
 
 #### Moore
