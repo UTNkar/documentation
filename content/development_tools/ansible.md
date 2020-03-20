@@ -62,6 +62,7 @@ Sets up dependencies and the database and updates project moore to the latest ve
 
 - `setup`: runs all steps that setup dependencies and database.
 - `deploy`: runs all steps that downloads and installs the latest version of moore.
+- `nginx`: runs the nginx role
 
 #### documentation.yml
 
