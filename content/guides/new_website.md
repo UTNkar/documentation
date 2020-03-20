@@ -19,7 +19,7 @@ A common task for the system administrator is to setup new webistes. Thankfully 
 2. Log in to Cloudflare and add a new CNAME record for the new site. Look at the other CNAME records if you get confused.
     * The *name* should be the name of the subdomain, *e.g*. the name of the subdomain `polhacks.utn.se` is `polhacks`.
     * The *value* should be the full link to the server that you will place the website on.
-    * Some sites need to have Cloudflares proxy (the cloud) activated and some need it to be turned off. Look at simillar records to see if it should be turned on or off.
+    * Make sure that the record is proxied through cloudflare (*orange cloud*) unless it's a multilevel domain name. In that case the record should not be proxied since the provided SSL certificate from cloudflare wont work.
 
 3. Create a new user or select a existing one that will become the owner of the website. Instructions for creating a new user can be found on the [ansible page](/development_tools/ansible/#add-a-user).
 
@@ -76,4 +76,22 @@ If you are creating a new site with **Drupal** you must perform the steps bellow
 
 Moore differs a bit from Turing and Babbage. New sites are created through the admin panel.
 
-TODO: Add instructions
+1. Create a DNS record on cloudflare in the same way as in the instructions for Babbage and Turing.
+
+2. Add the new domain to the list of server names in the moore playbook in the ansible repository.
+
+3. Run the moore playbook in the ansible repository. You can use the tag `nginx` if you don't want to update moore to the latest version at the same time.
+
+4. SSH into the server and add the new domain name to the SSL certificate. Instructions can be found [here](/server_software/certbot/). Dont forget to reload nginx after this step.
+
+5. Go to moore and create a new site in wagtail admin. Create a homepage and fill in the english and swedish name for the site.
+
+6. Create a new website under settings with the URL created in the first step and select the newly created site.
+
+7. Create a new collection (*samling*) for the owners of the new website so that they have somewhere to place pictures and videos.
+
+8. Create a new group or modify an existing and give that group access to the site and the collection for images, documents and videos.
+
+9. Make sure that the new owner is applied to a position that has the group assigned to it or that the owner is directly assigned to the group.
+
+10. Tell the new owners that their website is available and tell them that they have their own collection where they can put their images, documents and videos.
