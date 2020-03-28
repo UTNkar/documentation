@@ -73,12 +73,21 @@ Gets the latest version from the documentation github repo and updates the docum
 - `deploy`: runs all steps that updates the documentation to the latest version
 - `nginx`: runs the steps necessary to configure nginx for the documentation website
 
+#### custom_web_babbage.yml
+
+Deploys the applications specified in `vars/custom_installations_babbage.yml` to *babbage*.
+
+**Available tags**
+
+- `nginx`: runs the steps necessary to configure nginx for the documentation website
+- `logs`: runs the steps necessary to setup the log files for each application
+- `database`: sets up the database for each application
+
 #### Other playbooks
 
 - `common.yml` - Meant to execute initial server configuration (e.g., manage
 users, add firewall).
 - `custom_web.yml` - Deploys the applications specified in `vars/custom_installations.yml` to *turing*.
-- `custom_web_babbage.yml` - Deploys the applications specified in `vars/custom_installations_babbage.yml` to *babbage*.
 These applications aren't made with drupal so they need to be in their own playbook.
 - `drupal7.yml` - Deploys all drupal 7 applications specifies in `vars/drupal7_installations.yml` to *babbage*.
 - `survey.yml` - Deploys limesurvey to *turing*.
