@@ -11,7 +11,7 @@ home = [ "HTML", "RSS", "JSON"]
   # See the config.toml file from this documentation site to have an example.
   editURL = "https://github.com/UTNkar/documentation/blob/master/content/"
   # Author of the site, will be used in meta information
-  author = "Jip J. Dekker"
+  author = "Daniel Fehrm"
   # Description of the site, will be used in meta information
   description = "The documentation of UTN's IT systems"
   # Shows a checkmark for visited pages on the menu. Default to false
