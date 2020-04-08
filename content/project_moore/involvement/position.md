@@ -1,7 +1,7 @@
 +++
 title = "Positions"
 date =  2020-03-31T19:54:02+02:00
-weight = 10
+weight = 3
 +++
 
 {{% notice warning %}}
