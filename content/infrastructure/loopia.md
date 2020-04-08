@@ -8,6 +8,7 @@ weight = 35
 UTN registers its domain names at [Loopia](https://www.loopia.com). We currently
 hold the following domain names:
 
+- es20.se - Used by the ES section for their 20 year celebration. This domain is payed by the ES section.
 - forsranningen.com
 - forsranningen.se
 - forsränningen.se
