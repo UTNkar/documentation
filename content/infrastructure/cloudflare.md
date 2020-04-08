@@ -5,8 +5,7 @@ toc = true
 weight = 45
 +++
 
-The domains **utn.se** and **utnarm.se** is managed at [CloudFlare](https://www.cloudflare.com/).
-CloudFlare is a free service that helps both optimize the access to web server
+**All domains that UTN own should use cloudflare.** CloudFlare is a free service that helps both optimize the access to web server
 by caching pages, but also protect the website against threats. It does this by
 interrupting a client from accessing the actual server if it might be a
 threat, it will challenge the user if in doubt of a malicious bot, and then
@@ -15,9 +14,19 @@ serve the page from cache if possible.
 CloudFlare keeps excessive data on requests, so it's interesting to take a look
 once in a while.
 
+It also hides the server ip address which adds an extra protection against attacks. **Important!:** Don't make the server ip address public e.g. write them on this webpage. Only give it to trusted people.
+
 ### Cloudflare proxy
 
 Next to almost all DNS posts there is a cloud that can be orange or gray. This is the cloudflare proxy. If the cloud is orange the traffic to that domain goes through cloudflare and gets protected. If it is gray, cloudflare wont protect it and will just let traffic through.
+
+All records should be proxied through cloudflare (orange) so that they are protected. **Note!** Mutlilevel-domains should not be proxied since the SSL certificate does not handle those kinds of domains.
+
+{{% notice warning %}}
+
+When a record is proxied through cloudflare, you can not use SSH on that record (`ssh moore.utn.se`). Instead you must SSH to the ip directly (`ssh XXX.XXX.XXX.XXX`)
+
+{{% /notice %}}
 
 ### DNS Structure
 
@@ -35,13 +44,13 @@ should use the CloudFlare proxy.
 
 ### SSL/TLS settings
 
-Cloudflare provides some hadny features for dealing with SSL/TLS certificates. One of these features is that Cloudflare can create a and serve a ssl certificate for us. 
+Cloudflare provides some handy features for dealing with SSL/TLS certificates. One of these features is that Cloudflare can create a and serve a ssl certificate for us.
 
-*utn.se* and *utnarm.se* has this feature and uses the option **Full(strict)**. This option means that traffic between users and cloudflare and the traffic between cloudflare and our servers will be end-to-end encrypted. One of the requirements for this is that the servers has a trusted CA which we create using [certbot](/server_software/certbot).
+All domains should use the option **Full(strict)**. This option means that traffic between users and cloudflare **AND** the traffic between cloudflare and our servers will be end-to-end encrypted. One of the requirements for this is that the servers has a trusted CA which we create using [certbot](/server_software/certbot).
 
 {{% notice warning %}}
 
-When using a multi-level domain name (e.g. anmalan.rally.utn.se), the certificate provided by cloudflare is not valid since it only covers one level of subdomains (e.g. rally.utn.se).
+When using a multi-level domain name (e.g. anmalan.rally.utn.se), the certificate provided by cloudflare is not valid since it only covers one level of subdomains (e.g. rally.utn.se). This will cause errors when the browser tries to load a website.
 
 {{% /notice %}}
 
@@ -49,16 +58,12 @@ When using a multi-level domain name (e.g. anmalan.rally.utn.se), the certificat
 
 Cloudflare has a feature called page rules.
 With these rules you can apply different rules to different websites.
-One of these rules are to redirect a website. 
+One of these rules are to redirect a website.
 Redirects should not be deleted since they previous were the main website which were then switched.
-During the time before the switch the original URL will exist on many places. 
+During the time before the switch the original URL will exist on many places.
 If someone then goes to the original URL they wont get where they wanted and will become confused.
-Currently the following redirects exist on **utn.se**:
 
-- **utnarm.utn.se** goes to **utnarm.se**
-- **w.utn.se** goes to **wsektionen.se**
-
-In the free plan, only 3 page rules are included.
+The current redirects can be found under the Page Rules tab.
 
 ### SPF Record
 
