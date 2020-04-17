@@ -137,7 +137,7 @@ Mjukvara:
 Hosting:
 - Utnarms hemsida (utnarm.utn.se)
 
-### pay.utn.se
+### pay.utn.se - [REMOVED]
 
 UTN:s server för betaltjänster. Ett egenutvecklad system av Åke Lagercrantz och
 Niclas Edenvin.
