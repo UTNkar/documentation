@@ -15,7 +15,7 @@ Software](/server_software).
 ## Babbage
 
 The Babbage server, `babbage.utn.se`, mainly runs Drupal7-based applications, using
-NGINX, PHP7 and MySQL. It runs on Ubuntu 16.04. All settings can be found in
+NGINX, PHP7 and MySQL. It runs on Ubuntu 18.04. All settings can be found in
 their default positions (e.g., `/etc/nginx/sites-available/`). The files for the
 apps are found in `/var/www/`. The following web applications are running on
 Babbage:
@@ -48,7 +48,7 @@ website (Drupal7-based)
 
 The Moore server, `moore.utn.se`, is home to Project Moore: an Django project
 intent on replacing several part of the UTN application infrastructure. The
-server runs on Ubuntu 16.04. All files for Project Moore are located in the
+server runs on Ubuntu 18.04. All files for Project Moore are located in the
 `/var/www/` folder. The following urls are used by Project Moore:
 
 - [apply.utn.se](https://apply.utn.se) - Application website
@@ -60,7 +60,7 @@ server runs on Ubuntu 16.04. All files for Project Moore are located in the
 ## Turing
 
 The Turing server, `turing.utn.se`, runs web apps that use PHP7, NGINX and
-PostgreSQL. It runs on Ubuntu 16.04. All settings can be found in their default
+PostgreSQL. It runs on Ubuntu 18.04. All settings can be found in their default
 positions (e.g., `/etc/nginx/sites-available/`). The files for the apps are
 found in `/var/www/`. The following web applications are running on Turing:
 
