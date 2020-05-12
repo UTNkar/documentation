@@ -22,7 +22,6 @@ Various committees govern their own Google Suite account.  Although the system
 administrator has access to some of these, they are mostly governed by the
 committees themselves. The committees with their own Google Suites account are:
 
-- Balen
 - MFK
 
 As an admin of the Google Suite organization, you will be able to access the
