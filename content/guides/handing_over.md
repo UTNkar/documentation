@@ -43,3 +43,4 @@ When handing over the position, the following things must be done
 **The admin should also be aware of the following things:**
 
 - Only those who should have access, shall have access
+- There is a mail group called [it-gang@utn.se](mailto:it-gang@utn.se) that reaches out to all IT responsible people in UTN:s committees
