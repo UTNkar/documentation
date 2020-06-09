@@ -28,14 +28,14 @@ Bash](https://git-scm.com/downloads).
 
 Once you open the terminal the process becomes rather easy.
 
-1. Execute the following command `ssh-keygen -t rsa -b 4096 -C "Your Full Name"`
+1. Execute the following command `ssh-keygen -o -a 100 -t ed25519 -C "Your Full Name"`
 (Using your own full name).
 
 2. When prompted `Enter a file in which to save the key
-(/Users/you/.ssh/id_rsa):`, press enter (or type a location you'll remember).
+(/Users/you/.ssh/id_ed25519):`, press enter (or type a location you'll remember).
 
 3. Enter a password when prompted.
 
 4. Congratulations! You have generated a SSH key pair, send your public key to
 the [system administrator](mailto:admin@utn.se). (If you used the default
-location you can use the following command: `cat ~/.ssh/id_rsa.pub`)
+location you can use the following command: `cat ~/.ssh/id_ed25519.pub`)
