@@ -12,7 +12,7 @@ The member check can be found at [utn.se/medlemskoll](https://www.utn.se/medlems
 ## API
 
 The member check is also available as an api and can be used from a website, app etc.
-To use the api, send a **POST** request to `https://www.utn.se/member_check/check_membership.php`.
+To use the api, send a **POST** request to `https://old.utn.se/member_check/check_membership.php`.
 
 ### Params
 
