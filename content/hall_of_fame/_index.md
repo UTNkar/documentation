@@ -11,7 +11,7 @@ some things may not have been included in the documentation. So both in the
 sense of *"Credit where credit is due"*, and as a form of history keeping, here
 follows a list of UTN's IT heroes and their merits.
 
-#### Daniel Fehrm - (2018-2019)
+#### Daniel Fehrm - (2018-2020)
 *System Administrator* - contact: \[[e-mail](mailto:daniel@fehrm.se)\]
 
 - Upgraded the union's GitHub to the team plan
@@ -19,6 +19,10 @@ follows a list of UTN's IT heroes and their merits.
 - Added SSL certificates to the sites hosted on GleSys
 - Added Guides to the documentation
 - Changed so that postfix uses SMTP
+- Became the first project manager for Digitalization committee
+- Introduced cloudflare origin certificates instead of using certbot
+- Migrated all separate Google suites to the unions main Google suite
+- Setup SPF, DKIM and DMARC for all domains for better email deliverability
 
 #### Johan Snider - (2017-2018)
 *System Administrator* - contact: \[[e-mail](mailto:johan.snider@gmail.com)\]
