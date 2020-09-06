@@ -20,7 +20,6 @@ When handing over the position, the following things must be done
 - Glesys
 - Google Account (drive, mail etc.)
 - Github (Must be set as an owner)
-- Trello
 - Project moore (Must become an admin)
 
 **The new admin must get ssh access to the servers aswell as an admin account on every server:**
