@@ -26,15 +26,11 @@ A common task for the system administrator is to setup new webistes. Thankfully 
 4. Create a password for the database that will be created by running `ansible-vault edit vars/passwords.yml`. Use a password generator to create the password (at least 16 characters!).
 
 5. Find the correct file in the *ansible/vars* folder and add the new site by copying another site and changing the paremeters. The files in *ansible/vars* are explained on the [ansible page](/development_tools/ansible/).
-    * Set the *template* variable to `temp-http`. This is because all other templates requires SSL certificates which we will create in a later step.
+    * Set the *template* variable to the desired nginx template. List of templates can be found on the [ansible page](/development_tools/ansible/)
     * Set the *user* variable to the user you created/selected in step 3.
     * Set the *password* variable to the name of the variable you created in step 4.
 
 6. Run the playbook that corresponds to the file in the *vars* folder that you added the site to with `ansible-playbook the_corresponding_playbook.yml`
-
-7. Go to the server you selected by using *SSH* and create a SSL certificate for the new site. Instructions can be found [here](/server_software/certbot/).
-
-8. Exit the server and change the *template* variable to the template that you want to use. List of templates can be found on the [ansible page](/development_tools/ansible/).
 
 You should now have a fully functional website and you can now hand over the new website to its new owner.
 
@@ -62,7 +58,7 @@ If you are creating a new site with **Drupal** you must perform the steps bellow
     * The name of the user for the database
     * The passowrd to the database
 
-7. You might have to run the drupal7 playbook again and change some permissions. TODO
+7. You might have to run the drupal7 playbook again and change some permissions.
 
 8. Update the website. To do this you must stand in the website's public directory `cd /var/www/<site-name>.utn.se/public`. Now run `drush up`.
 
@@ -82,16 +78,14 @@ Moore differs a bit from Turing and Babbage. New sites are created through the a
 
 3. Run the moore playbook in the ansible repository. You can use the tag `nginx` if you don't want to update moore to the latest version at the same time.
 
-4. SSH into the server and add the new domain name to the SSL certificate. Instructions can be found [here](/server_software/certbot/). Dont forget to reload nginx after this step.
+4. Go to moore and create a new site in wagtail admin. Create a homepage and fill in the english and swedish name for the site.
 
-5. Go to moore and create a new site in wagtail admin. Create a homepage and fill in the english and swedish name for the site.
+5. Create a new website under settings with the URL created in the first step and select the newly created site.
 
-6. Create a new website under settings with the URL created in the first step and select the newly created site.
+6. Create a new collection (*samling*) for the owners of the new website so that they have somewhere to place pictures and videos.
 
-7. Create a new collection (*samling*) for the owners of the new website so that they have somewhere to place pictures and videos.
+7. Create a new group or modify an existing and give that group access to the site and the collection for images, documents and videos.
 
-8. Create a new group or modify an existing and give that group access to the site and the collection for images, documents and videos.
+8. Make sure that the new owner is applied to a position that has the group assigned to it or that the owner is directly assigned to the group.
 
-9. Make sure that the new owner is applied to a position that has the group assigned to it or that the owner is directly assigned to the group.
-
-10. Tell the new owners that their website is available and tell them that they have their own collection where they can put their images, documents and videos.
+9. Tell the new owners that their website is available and tell them that they have their own collection where they can put their images, documents and videos.
