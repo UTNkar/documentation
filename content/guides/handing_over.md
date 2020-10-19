@@ -22,6 +22,7 @@ When handing over the position, the following things must be done
 - Github (Must be set as an owner)
 - Project moore (Must become an admin)
 - The UTN facebook app at [developers.facebook.com](https://developers.facebook.com)
+- The TODO document on the drive
 
 **The new admin must get ssh access to the servers aswell as an admin account on every server:**
 
