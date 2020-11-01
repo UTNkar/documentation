@@ -15,8 +15,7 @@ The member check is also available as an api and can be used from a website, app
 To use the api, send a **POST** request to `https://utn.se/member_check_api/`.
 
 ### Params
-In the **POST** request you must send a JSON object with key/value pair: ssn/'personnummer'. 
-The social security number can be either 10 or 12 digits. A dash (-) is optional.
+In the **POST** request you must send a JSON object with key/value pair: ssn/'personnummer_of_the_person' and the content type must be set to "application/json". The social security number can be either 10 or 12 digits. A dash (-) is optional.
 
 Example:`{'ssn':'980102-1234'}` 
 
