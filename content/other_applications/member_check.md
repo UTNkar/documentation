@@ -12,7 +12,7 @@ The member check can be found at [utn.se/medlemskoll](https://www.utn.se/medlems
 ## API
 
 The member check is also available as an api and can be used from a website, app etc.
-To use the api in Moore, send a **POST** request to `/member_check_api/`.
+To use the api, send a **POST** request to `https://utn.se/member_check_api/`.
 
 ### Params
 In the **POST** request you must send a JSON object with key/value pair: ssn/'personnummer'. 
@@ -48,4 +48,3 @@ OR
 Http Status Code: 400
 
 Response: `{error: Inserted value, "A message describing the error"}`
-
