@@ -47,4 +47,4 @@ OR
 
 Http Status Code: 400
 
-Response: `{error: Inserted value, "A message describing the error"}`
+Response: `{error: "Personnummer: A message describing the error"}`
