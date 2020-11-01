@@ -12,15 +12,15 @@ The member check can be found at [utn.se/medlemskoll](https://www.utn.se/medlems
 ## API
 
 The member check is also available as an api and can be used from a website, app etc.
-To use the api, send a **POST** request to `https://old.utn.se/member_check/check_membership.php`.
+To use the api in Moore, send a **POST** request to `/member_check_api/`.
 
 ### Params
-
-In the **POST** request, you must send the social security number (personnummer) of the person you want to perform a member check on.
+In the **POST** request you must send a JSON object with key/value pair: ssn/'personnummer'. 
 The social security number can be either 10 or 12 digits. A dash (-) is optional.
-The social security number must be sent in the `ssn` parameter. Example:
 
-ssn=980102-1234
+Example:`{'ssn':'980102-1234'}` 
+
+
 
 ### Response
 
@@ -47,10 +47,5 @@ OR
 
 Http Status Code: 400
 
-Response: `{code: error_code, message: "A message describing the error"}`
+Response: `{error: Inserted value, "A message describing the error"}`
 
-The following error codes exist:
-
-- **1** - The `ssn` parameter is missing
-- **2** - The `ssn` parameter is empty
-- **3** - The `ssn` is badly formated
