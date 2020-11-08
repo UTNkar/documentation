@@ -1,10 +1,21 @@
 +++
 date = "2016-08-18T15:22:50+02:00"
-title = "Registry"
+title = "Member registry"
 toc = true
 weight = 15
 
 +++
+
+The union uses a member registry called Melos which is managed by USMOS. It is a joint system used by
+the nations and unions in Uppsala. Melos features an API for retreiving a user from the member registry
+and checking if a person is a member of UTN or not. The system administrator has more details on how to use
+this api. The information officer also has the ability to access the member registry.
+
+{{% notice warning %}}
+
+The old registry described below (*register.utn.se*) has been deprecated in favor of the unions new member system MELOS and should be removed.
+
+{{% /notice %}}
 
 The UTN registry website is a terribly old custom web application created to
 keep track of the number of members that UTN has and how they are distributed

@@ -14,8 +14,7 @@ follows a list of UTN's IT heroes and their merits.
 #### Daniel Fehrm - (2018-2020)
 *System Administrator* - contact: \[[e-mail](mailto:daniel@fehrm.se)\]
 
-- Upgraded the union's GitHub to the team plan
-- Revived the website for Kårsamverkan
+- Downgraded github to the free plan
 - Added SSL certificates to the sites hosted on GleSys
 - Added Guides to the documentation
 - Changed so that postfix uses SMTP
