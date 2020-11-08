@@ -22,5 +22,6 @@ hold the following domain names:
 - utnarm.com
 - utnarm.se
 
-Most DNS entries are thus also managed at Loopia, however our main domain name
-*utn.se* is managed at [CloudFlare](/infrastructure/cloudflare).
+Most DNS entries are thus also managed at Loopia, except for *utn.se*, *utnarm.se* and *es20.se*
+which are managed at [CloudFlare](/infrastructure/cloudflare). This means that the subdomain records for them
+at loopia don't have any effect and don't work.

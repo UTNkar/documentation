@@ -5,12 +5,18 @@ toc = true
 weight = 25
 +++
 
+{{% notice warning %}}
+
+The last servers should be removed when the new registration system is finished and all users of 
+the old registration system have migrated to the new!
+
+{{% /notice %}}
+
 {{% notice info %}}
 
 The older UTN servers are hosted by [GleSYS](https://glesys.com). As these
 servers were still managed by Swedish System Administrators, they made the
-following documentation in Swedish. Most of these servers have been or are
-planned to be removed.
+following documentation in Swedish.
 
 {{% /notice %}}
 

@@ -66,7 +66,7 @@ The origin certificates creates a certificate and a private key. The certificate
 
 {{% notice warning %}}
 
-When using a multi-level domain name (e.g. anmalan.rally.utn.se), the certificate provided by cloudflare is not valid since it only covers one level of subdomains (e.g. rally.utn.se). This will cause errors when the browser tries to load a website.
+When using a multi-level domain name (e.g. *anmalan.rally.utn.se*), the certificate provided by cloudflare is not valid since it only covers one level of subdomains (e.g. *rally.utn.se*). This will cause errors when the browser tries to load a website. Instead use a one level domain name e.g. *anmalan-rally.utn.se* 
 
 {{% /notice %}}
 
