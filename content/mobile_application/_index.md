@@ -3,10 +3,10 @@ title = "Mobile Application"
 date = 2018-12-03T18:17:45+01:00
 weight = 70
 chapter = true
-pre = "<b>7. </b>"
+pre = "<b>8. </b>"
 +++
 
-### Chapter 7
+### Chapter 8
 
 # Mobile Application
 

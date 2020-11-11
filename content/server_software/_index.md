@@ -1,13 +1,13 @@
 +++
 chapter = true
 date = "2016-08-01T15:03:36+02:00"
-pre ="<b>5. </b>"
+pre ="<b>6. </b>"
 title = "Server Software"
 weight = 55
 
 +++
 
-### Chapter 5
+### Chapter 6
 
 # Server Software
 
