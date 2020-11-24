@@ -31,4 +31,4 @@ result was for a single raffle.
 - Raffle entry holders who are accepted will be able to register an account, making them _confirmed_, which is a final state.
 
 Currently, there is no mechanism to punish or otherwise correct participants who have claimed their place but not created their account.
-In such an event, the event holders should contact and nag the participant in question.
+In such an event, the event hosts should contact the participant in question.

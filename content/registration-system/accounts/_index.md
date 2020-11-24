@@ -7,12 +7,12 @@ weight = 20
 ## Creating an account
 Raffle winners who have accepted their spot will have to register an account,
 which automatically forms a team with the user as leader. These accounts are saved
-and identified by the event user model, for example the `RiverraftingUser` in the case
+and identified by the event user model, for example the `RiverRaftingUser` in the case
 of the River Rafting instance of the registration system.
 
 ## Properties
-Accounts (i.e users) are identified by their person number/SSID. Users also have other
-properties depending on each event; as an example, the `RiverraftingUser` has properties
+Accounts (i.e users) are identified by their person number/SSN (_sv. personnummer_). Users also have other
+properties depending on each event; as an example, the `RiverRaftingUser` has properties
 describing if they want to buy lifevests and helmets or not.
 
 To extend and include more properties, each event should edit their own user model,
