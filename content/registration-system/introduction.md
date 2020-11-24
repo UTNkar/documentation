@@ -9,7 +9,7 @@ The Union has a several events which require some sort of application and are ty
 For this purpose, the Digitalization committee has developed a website aptly named the _registration system_.
 It is intended to replace the old registration systems of the Puzzle Hunt Rally, The River Rafting event and
 The Natural Science Ball. Other committees and workgroups within the Union can also begin work to use the
-registration system- to do so, contact the digitalization committee.
+registration system to do so, contact the digitalization committee.
 
 ## Usage
 The registration system is designed to allow site administrators (i.e each committees IT-responsible person)
