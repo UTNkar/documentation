@@ -18,6 +18,7 @@ When handing over the position, the following things must be done
 - Digital Ocean (Must be set as an owner)
 - Cloudflare
 - Glesys
+- Sentry
 - Google Account (drive, mail etc.)
 - Github (Must be set as an owner)
 - Project moore (Must become an admin)
