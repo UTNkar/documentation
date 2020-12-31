@@ -14,4 +14,4 @@ When you are going to open a new recruitment (sök), it is important to know tha
 
 This video will explain what a role is and how you create one
 
-{{< video link="/videos/moore_position.mp4">}}
+{{< video link="/videos/moore/position.mp4">}}
