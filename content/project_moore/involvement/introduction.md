@@ -55,7 +55,13 @@ A position is an instance of a role for a certain year e.g. Web(b) 18, Web(b) 19
 
 Each position has a number of applications associated to it.
 
-#### [Applications](/project_moore/involvement/role/)
+{{% notice info %}}
+
+Note the **difference** between positions and roles. **Roles are reoccuring** each year while **positions are specific** for just one year.
+
+{{% /notice %}}
+
+#### [Applications](/project_moore/involvement/applications/)
 
 Applications are created by users who want to apply for a position. 
 
@@ -75,7 +81,7 @@ Application - Linda Lastname (which is connected to the position Web(b) 2021)
 
 When you have decided which people to appoint and called all of the applicants, you must appoint them in apply.
 
-This is explained in the chapter [Appointing](/project_moore/involvement/appoint_and_approve/)
+This is explained in the chapter [Appointing](/project_moore/involvement/appoint_and_approve/).
 
 ### Next steps
 
