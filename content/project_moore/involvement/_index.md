@@ -7,7 +7,7 @@ weight = 5
 
 # Involvement
 
-This chapter describes how the involvement system works (e.g. [apply.utn.se](apply.utn.se)).
+This chapter describes how the involvement system works (e.g. [apply.utn.se](https://apply.utn.se)).
 These instructions will contain the information you need to administrate recruitements and applications.
 
 ![Involvement Admin Menu](/images/moore/involvement/involvement_menu.png)
