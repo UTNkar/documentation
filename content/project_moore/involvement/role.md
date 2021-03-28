@@ -34,7 +34,7 @@ This level does not at the moment do all of the things described above. This wil
 
 ### Board (Level 2)
 
-Allowed to administer the application process ONLY for level 3 as well as view the applications for these. Is allowed to appoint (tillsätta) or disapprove applications. Is allowed to add and edit roles/positions only on level 3 for ALL teams (kommitté/arbetsgrupp).
+Allowed to administer the application process for level 3, 4 and 5 as well as view the applications for these. Is allowed to appoint (tillsätta) or disapprove applications on both levels. Is allowed to add and edit roles/positions on level 4 and 5 ONLY for the team (kommitté/arbetsgrupp) that they are appointed to.
 
 The Board has this level of access.
 
