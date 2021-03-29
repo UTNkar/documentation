@@ -12,7 +12,7 @@ The website is currently hosted on:
 
 Clone the project with `git clone --recursive link_to_this_repository`.
 
-This website is generated using [Hugo](gohugo.io). If you have Hugo installed,
+This website is generated using [Hugo](https://gohugo.io). If you have Hugo installed,
 then it's a simple fact of running `hugo` within the directory. HTML files will
 be generated in the `public/` directory. These files can then be used to host
 the website.
