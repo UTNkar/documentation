@@ -14,7 +14,7 @@ This step should only be done after you have contacted all applicants and told t
 
 {{% /notice %}}
 
-{{< video link="/videos/moore/appoint.mp4">}}
+{{< iframe link="https://drive.google.com/file/d/1O-RwrMVnxbKUQMufLjyy83P72uH5M7Tk/preview">}}
 
 ### Automatically turning down people
 

@@ -16,4 +16,4 @@ You will most likely not create a team when working with apply since your team a
 
 {{% /notice %}}
 
-{{< video link="/videos/moore/teams.mp4">}}
+{{< iframe link="https://drive.google.com/file/d/1Cy-ucpG1OgrSdgeuSmHDhcD3uCXl84OR/preview">}}

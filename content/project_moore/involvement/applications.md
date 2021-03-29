@@ -8,4 +8,9 @@ weight: 4
 
 This video explains how applications are made and how you can read them.
 
-{{< video link="/videos/moore/applications.mp4">}}
+{{< iframe link="https://drive.google.com/file/d/11GnNoyuodvqCBUC5Zcx1KbkCxuUPisrg/preview">}}
+
+
+
+<!-- 
+{{< video link="https://drive.google.com/file/d/11GnNoyuodvqCBUC5Zcx1KbkCxuUPisrg/view?usp=sharing">}} -->

@@ -14,7 +14,7 @@ When you are going to open a new recruitment (sök), it is important to know tha
 
 This video will explain what a position is and how you create one.
 
-{{< video link="/videos/moore/position.mp4">}}
+{{< iframe link="https://drive.google.com/file/d/1uuVhJnGrd-Q2t9EMwpTVabSJEf9eIVN3/preview">}}
 
 ### Extending the application period
 
