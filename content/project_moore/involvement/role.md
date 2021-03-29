@@ -6,9 +6,9 @@ weight = 2
 
 ## Instructional video
 
-This video will explain what a role is and how you create one
+This video will explain what a role is and how you create one.
 
-{{< video link="/videos/moore_role.mp4">}}
+{{< iframe link="https://drive.google.com/file/d/1dTC6F_dsBb9aTBleGFphp8-mtA4W9zlc/preview">}}
 
 ## Role types
 
