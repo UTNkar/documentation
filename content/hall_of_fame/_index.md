@@ -53,9 +53,15 @@ contact: \[[e-mail](mailto:adam.bystrom@uppstuk.se)\]
 
 - Co-creator of the Drupal 7-based UTN Website
 
-#### Åker Lagercrantz & Niclas Edenvin
+#### Åke Lagercrantz & Niclas Edenvin
 
 - Creators of [pay.utn.se](https://pay.utn.se/)
+
+#### Per Enström - (2011-2012)
+*Information officer 2011-2012* - contact: \[[e-mail](mailto:enstrom.per@gmail.com)\]
+
+- Creator of first version of Member check (based on UTN Registry)
+- Maintenance work on the UTN Registry
 
 #### Patrik Sternudd - (2007?)
 *Head of Labour Market Affairs* - contact: \[[LinkedIn](http://se.linkedin.com/in/psternudd)\]
