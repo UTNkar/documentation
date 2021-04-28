@@ -29,5 +29,5 @@ An email is also sent to UTN:s klubbmästare.
 
 ### Removing old reports
 
-Reports that are older than 1 year are automatically deleted along with all journal entries that belong to it. 
+Reports that are older than 1,5 years are automatically deleted along with all journal entries that belong to it. 
 This is to avoid having very old reports and journal entries just lying and also GDPR reasons.
