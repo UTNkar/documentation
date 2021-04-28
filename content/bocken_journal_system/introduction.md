@@ -24,5 +24,3 @@ They do this in the form by filling in their details and what the distance meter
 
 The admin view is primarily used to create reports which is a collection of several journal entries between two timestamps.
 The report gives the administrators the possibility to see how much each group has driven and how much they should pay.
-
-![report](/images/bocken_journal_system/report.png)
