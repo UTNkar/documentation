@@ -10,6 +10,9 @@ Reports are a collection of journal entries between two different timestamps.
 Reports calculate how much each group has driven and how much they should pay. 
 It also calculates the lost cost i.e. the cost for the kilometers that have not been entered into the journal, e.g. someone forgot to create a journal entry after they had driven.
 
+A report only consists of its two timestamps, it does not store a copy of the journal entries. 
+This means that if a journal entry, that belongs to a report, is changed, the changes will displayed automatically in the report.
+
 ![report](/images/bocken_journal_system/report.png)
 
 ### Creating a report
