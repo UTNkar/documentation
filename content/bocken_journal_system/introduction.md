@@ -10,7 +10,7 @@ The journal system for Bocken exists because of two purposes:
 1. Traceability: We can keep track of who drove the car when and how far they drove it
 2. Costs: We can record how much each group(*committee, workgroup etc.*) has driven in total and calculate how much they should pay.
 
-The journal system consits of two major parts: The user view and the admin view. Below is a brief introduction of the two. These views
+The journal system consits of two major parts: The user views and the admin views. Below is a brief introduction of the two. These views
 are explained more thorough in their respective chapters.
 
 ### User view
