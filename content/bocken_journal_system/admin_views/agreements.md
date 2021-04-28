@@ -22,3 +22,13 @@ This is because before this system was created, emails weren't collected so some
 - **expires:** The date when the agreement expires.
 
 ## Adding agreements
+
+Agreements are added in the admin pages. Here you fill in the information from the agreement that the user has sent to you. 
+
+One thing to note is that the email should be a private email adress and not a utn.se email address.
+This is because users Bocken agreements can expand after they have steped down from their position. 
+If they use a utn.se email, they are likely to miss out on important emails.
+
+You also need to upload the agreement **which both you and the user have signed**.
+
+![adding agreements](/images/bocken_journal_system/add_agreement.png)
