@@ -6,7 +6,7 @@ weight = 10
 
 +++
 
-Entries are added at */add-entry*. In this form the user fills in the following fields:
+Entries are added at `/add_entry`. In this form the user fills in the following fields:
 
 - **Personnummer:** The person's personnummer. This is used to find that person's agreement in the database. 
 **A person must have an agreement in order to drive bocken**
