@@ -15,6 +15,6 @@ Before the below view is seen, the user must first authenticate themselves throu
 
 {{% notice tip %}}
 
-Note that the logotype displayed in the upper-left corner (seen in all views) **can be pressed** to return to this index view. The logotype (as well as general theming) depends on what organisation the user logged in as.
+The logotype displayed in the upper-left corner (seen in all views) **can be pressed** to return to this index view. The logotype (as well as general theming) depends on what organisation the user is logged in as.
 
 {{% /notice %}}

@@ -60,14 +60,14 @@ Here you can see the order a bit more clearly, as well as access individual orde
 
 Pressing the edit button will open the order up for editing, see section 9.
 
-Pressing the delede button will remove the order from the system entirely, without affecting the statistics.
+Pressing the delete button will remove the order from the system entirely, without affecting the statistics.
 
 ##### 9. Editing an order
 
 Pressing the edit button in the order information window will open the order in edit mode.
 ![order edit mode](/images/ordsys/views/bar_edit.png)
 
-Editing an order is very similar to creating an order, and is useful since editing an order does not move it in the priority queue. You can add and remove items, change their modifications, the order note, customer number and more. The key difference is ocne you're done editing an order, pressing the send button will update the existing order instead of creating a new one.
+Editing an order is very similar to creating an order, and is useful since editing an order does not move it in the priority queue. You can add and remove items, change their modifications, the order note, customer number and more. The key difference is once you're done editing an order, pressing the send button will update the existing order instead of creating a new one.
 
 {{% notice info %}}
 

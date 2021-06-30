@@ -14,7 +14,7 @@ During a normal pub night, OrdSys would only be used to manage *food* orders, si
 A customer approaches the bar and orders a beer and a hamburger. The bar staff hands the customer a table number sign and the beer, and proceeds to place an order for a hamburger to the given table number and send it through the system. The customer pays for the order before leaving the bar.
 
 #### 2. Receiving and handling an order
-The kitchen staff sees the newly placed hamburger order on a laptop in the kitchen set to the kitchen view. Once the kitchen staff is ready to prepare the burger, they press the rightward-facing arrow on the order, moving it to the *in progress* column to inform the bar staff and to make sure noone else in the kitchen starts working on the same order.
+The kitchen staff sees the newly placed hamburger order on a laptop in the kitchen set to the kitchen view. Once the kitchen staff is ready to prepare the burger, they press the rightward-facing arrow on the order, moving it to the *in progress* column to inform the bar staff and to make sure no-one else in the kitchen starts working on the same order.
 
 Should orders start to pile up, the kitchen staff can get an overview of how many items are waiting in the lower right portion of the screen. This is to ensure that they can tell the bar staff if they run out of a certain menu item.
 
@@ -31,7 +31,7 @@ The below example is taken from how the TD reception had their pub nights in the
 A waiter using a tablet in the waiter view walks to a table with a customer seated. The customer orders a hamburger and a beer, which the waiter enters into the tablet together with the customer's table number. This order is then split into two orders - one containing the beer and the other containing the burger (since they'll be handled by different staff). The customer does not yet pay.
 
 #### 2. Receiving and handling an order
-The kitchen tent and the bar each have their own laptop, displaying the kitchen and tap view respectively (note that the bar view is for ordering, **not** fulfilling). Both the kitchen and the bar staff then start preparing the hamburger or beer in the same manner as the normal workflow example above. Since the tap can fulfill Once the items are ready, they move the respective order card into the *done* column.
+The kitchen tent and the bar each have their own laptop, displaying the kitchen and tap view respectively (note that the bar view is for ordering, **not** fulfilling). Both the kitchen and the bar staff then start preparing the hamburger or beer in the same manner as the normal workflow example above. Since the tap can fulfil Once the items are ready, they move the respective order card into the *done* column.
 
 #### 3. Fulfilling the order
 During the event, another category of staff, *runners*, are monitoring the delivery view, where they can see all orders that are currently waiting, in progress or ready for pickup. When someone in the kitchen or tap view moves an order to the *done* column, it changes color and rises to the top of the delivery view. Once this happens, the runner walks to either the kitchen or the bar and picks up the respective order and mark it as *claimed* in the delivery view, to prevent other runners from trying to pick up the same order.

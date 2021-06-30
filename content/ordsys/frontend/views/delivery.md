@@ -29,7 +29,7 @@ Pressing an order brings upp the following window:
 
 Here you can see the order a bit more clearly, as well as access individual order functions. The top-most button will either be "claim" or "delivered" depending on the order's status. Pressing the "claim" button will change the order's status to claimed, and pressing "deliver" (which can only be done on orders with the *claimed* status) will remove the order from view.
 
-Pressing the delede button will remove the order from the system entirely, without affecting the statistics.
+Pressing the delete button will remove the order from the system entirely, without affecting the statistics.
 
 {{% notice tip %}}
 

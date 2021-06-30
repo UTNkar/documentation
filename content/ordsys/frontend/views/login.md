@@ -16,6 +16,6 @@ The user accounts are managed by their respective organisation's administrator. 
 
 {{% notice info %}}
 
-Due to a bug, sometimes logging in yields the message "An unknown error occured, please try again". If this happens, try clearing all cookies from the utn.se domain in your browser.
+Due to a bug, sometimes logging in yields the message "An unknown error occurred, please try again". If this happens, try clearing all cookies from the utn.se domain in your browser.
 
 {{% /notice %}}

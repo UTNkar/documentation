@@ -14,7 +14,7 @@ The purpose of OrdSys was to digitalize the way kitchen- and bar staff communica
 
 ### Development history
 
-The idea for a digital order management system came during June 2019 as the pub crew was starting to plan for 2019's Battle of the Sections and realized that the existing order management solution (writing the order on a post-it note and handing it to someone in the kitchen) didn't allow for customers to order food from the outdoor's bar. This was problematic not only from a legal standpoint, but also simply inconvenient.
+The idea for a digital order management system came during June 2019 as the pub crew was starting to plan for 2019's Battle of the Sections and realized that the existing order management solution (writing the order on a post-it note and handing it to someone in the kitchen) didn't allow for customers to order food from the outdoors bar. This was problematic not only from a legal standpoint, but also simply inconvenient.
 
 During the summer of 2019, a rudimentary version of OrdSys was developed by Albin Antti using Node with Express and Sockets, which was used during the Battle of the Sections to great reception.
 
