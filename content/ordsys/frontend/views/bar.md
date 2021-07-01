@@ -54,7 +54,7 @@ The four different statuses that an order can have are:
 
 ##### 8. The order information window
 Pressing an order brings upp the following window:
-![order information modal](/images/ordsys/views/bar_modal.png)
+![order information modal](/images/ordsys/views/bar_modal.png?width=35pc)
 
 Here you can see the order a bit more clearly, as well as access individual order functions. The top-most button will either be "claim" or "delivered" depending on the order's status. Pressing the "claim" button will change the order's status to in transit, and pressing "deliver" (which can only be done on orders with the *in transit* status) will remove the order from view.
 
@@ -65,7 +65,7 @@ Pressing the delete button will remove the order from the system entirely, witho
 ##### 9. Editing an order
 
 Pressing the edit button in the order information window will open the order in edit mode.
-![order edit mode](/images/ordsys/views/bar_edit.png)
+![order edit mode](/images/ordsys/views/bar_edit.png?width=25pc)
 
 Editing an order is very similar to creating an order, and is useful since editing an order does not move it in the priority queue. You can add and remove items, change their modifications, the order note, customer number and more. The key difference is once you're done editing an order, pressing the send button will update the existing order instead of creating a new one.
 

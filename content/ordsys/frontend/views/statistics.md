@@ -12,5 +12,5 @@ The statistics view allows you to get an overview of how many of each menu item 
 
 It will count all occurrences of each menu item in orders regardless of their status (except for deleted orders). To use the statistics view, select a start date & time as well as an end date & time using the date fields and hit the *load selected interval* button. This will display a bar chart, as seen in the above picture.
 
-![statistics view datetime picker](/images/ordsys/views/statistics_datetime.png)
+![statistics view datetime picker](/images/ordsys/views/statistics_datetime.png?height=25pc)
 The picker tool for selecting a time and date to filter with.

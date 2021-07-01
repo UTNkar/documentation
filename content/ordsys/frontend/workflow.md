@@ -4,7 +4,6 @@ date =  2021-06-08T11:44:12+02:00
 weight = 100
 +++
 
-# The front-end workflow
 Below is an example of how OrdSys can be used in two different scenarios, a Thursday's pub during normal circumstances, and in a pub tent during Covid-19 restrictions.
 
 ## Normal workflow

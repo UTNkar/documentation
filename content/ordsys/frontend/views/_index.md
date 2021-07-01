@@ -5,7 +5,7 @@ weight = 20
 chapter = true
 +++
 
-# The front-end user interface
+# The user views
 
 This section describes the different user views in the front-end. The image below is a screenshot of the *index view*, which users are met with when accessing the system. From here, users can then navigate to whichever view they need to use for their respective duties. Each view has their own documentation page in the sidebar of this page.
 
