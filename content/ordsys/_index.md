@@ -1,12 +1,12 @@
 +++
 title = "OrdSys"
 menutitle = "OrdSys - Order Management System"
-date =  2021-06-08T11:44:12+02:00
+date =  2021-07-08
+LastModifierDisplayName = "Albin Antti"
+LastModifierEmail = "albin_antti@hotmail.com"
 weight = 48
 chapter = true
 pre ="<b>6. </b>"
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
 +++
 
 ### Chapter 6

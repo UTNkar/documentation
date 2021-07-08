@@ -1,7 +1,9 @@
 +++
 title = "The orders and order items table"
 menutitle = "Orders and order items"
-date =  2021-07-01T11:44:12+02:00
+date =  2021-07-08
+LastModifierDisplayName = "Albin Antti"
+LastModifierEmail = "albin_antti@hotmail.com"
 weight = 4
 +++
 

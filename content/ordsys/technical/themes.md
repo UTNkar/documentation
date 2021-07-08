@@ -1,7 +1,9 @@
 +++
 title = "Creating and editing themes"
 menutitle = "Themes"
-date =  2021-06-08T11:44:12+02:00
+date =  2021-07-08
+LastModifierDisplayName = "Albin Antti"
+LastModifierEmail = "albin_antti@hotmail.com"
 weight = 10
 +++
 

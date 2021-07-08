@@ -1,6 +1,8 @@
 +++
 title = "Technical aspects"
-date =  2021-06-27
+date =  2021-07-08
+LastModifierDisplayName = "Albin Antti"
+LastModifierEmail = "albin_antti@hotmail.com"
 weight = 39
 chapter = true
 +++

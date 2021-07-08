@@ -1,6 +1,8 @@
 +++
 title = "Render modes"
 date =  2021-07-08
+LastModifierDisplayName = "Albin Antti"
+LastModifierEmail = "albin_antti@hotmail.com"
 weight = 20
 +++
 ##### (AKA "where the f*** is the waiter view code")
