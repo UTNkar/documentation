@@ -1,12 +1,11 @@
 +++
 date = 2021-04-23T13:59:12+02:00
 title = "Background"
-toc = true
 weight = 10
 
 +++
 
-OrdSys was created in spring 2020 by Albin Antti ([LinkedIn](https://www.linkedin.com/in/albinantti) | [GitHub](https://www.github.com/albinantti)) and Christoffer Wallén ([GitHub](https://github.com/chwallen)) with the help of Benjamin Angeria, Aliyawer Qambari and Daniel Fehrm.
+OrdSys was created in spring 2020 by Albin Antti ([LinkedIn](https://www.linkedin.com/in/albinantti) | [GitHub](https://www.github.com/albinantti)) and Christoffer Wallén ([GitHub](https://github.com/chwallen)) with the help of Benjamin Angeria, Aliyawer Qambari, Daniel Fehrm and the UTN digitalisation committee.
 
 ### Purpose
 

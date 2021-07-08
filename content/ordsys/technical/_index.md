@@ -1,10 +1,13 @@
 +++
 title = "Technical aspects"
-date =  2021-06-27T11:44:12+02:00
+date =  2021-06-27
 weight = 39
 chapter = true
 +++
 
 # OrdSys' technical description
 
-This chapter contains information about the technical aspects of the system.
+
+OrdSys is built with Javascript and Python using Node with React-Bootstrap for the frontend and Django & Redis for the backend.
+
+This chapter contains information about the technical aspects of the system. It won't go in to too much technical detail. For instructions on installing the system or other code-related questions, please refer to the [GitHub repo](https://github.com/utnkar/ordsys).
