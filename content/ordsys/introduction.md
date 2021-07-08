@@ -1,9 +1,10 @@
 +++
-date = 2021-04-23T13:59:12+02:00
+date = 2021-07-08T08:59:12+02:00
 title = "Introduction"
 toc = true
 weight = 5
-
+LastModifierDisplayName = "Albin Antti"
+LastModifierEmail = "albin_antti@hotmail.com"
 +++
 
 OrdSys is a food- and beverage **ord**er management **sys**tem meant to remove the need for UTN bar staff writing orders on post-it notes, which often leads to longer waiting times and more mistakes.

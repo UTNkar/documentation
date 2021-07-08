@@ -1,6 +1,6 @@
 +++
-title = "The order and order items table"
-menutitle = "Order and order items"
+title = "The orders and order items table"
+menutitle = "Orders and order items"
 date =  2021-07-01T11:44:12+02:00
 weight = 4
 +++
@@ -8,7 +8,7 @@ weight = 4
 Last but not least in the Django admin interface is the order and the order items table. Due to the relational nature of the database, an order is separated from its contents (meaning that the customer number and the menu items in the order go to different tables). As such, these two tables are very interlinked, but also a bit confusing to understand. Placing an order of a hamburger and a soft drink to customer number 25 will add a row to the *orders* table for the customer number, and create two rows in the *order items* table, linking both to the order in the *orders* table.
 
 #### A note on these two tables
-In short, these two tables are a bit confusing overall, and shouldn't really be used for anything other than inspecting individual orders for whatever reason. Even then, using the front-end for inspecting orders (either through the order history view or the statistics view) is recommended, as they will display the orders together with their respective order items.
+In short, these two tables are a bit confusing to read, and shouldn't really be used for anything other than inspecting individual orders for whatever reason. Even then, using the front-end for inspecting orders (either through the order history view or the statistics view) is recommended, as they will display the orders together with their respective order items.
 
 ## The orders table
 ![orders table](/images/ordsys/admin/orders.png)

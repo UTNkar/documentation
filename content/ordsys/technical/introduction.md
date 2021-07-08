@@ -1,0 +1,1 @@
+django, node, redis, 
