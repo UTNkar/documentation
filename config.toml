@@ -19,4 +19,4 @@ home = [ "HTML", "RSS", "JSON"]
   # Automatically generates prev and next arrows
   autoNav = true
   # Coloring of the documentation website
-  themeVariant = "blue" # TODO: Use custom UTN blue: https://learn.netlify.com/en/basics/style-customization/#yours-variant
+  themeVariant = "utn"
