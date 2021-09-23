@@ -15,6 +15,6 @@ This documentation section is meant to be read by anyone intending to use the sy
 
 {{% notice info %}}
 
-These views are also documented in video format, a playlist of which can be found [here!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+These views are also documented in video format, a playlist of which can be found [here!](https://www.youtube.com/playlist?list=PLhE20ZMV4TUMeUtXMXiT-WKPJ9wCTfwAg)
 
 {{% /notice %}}
