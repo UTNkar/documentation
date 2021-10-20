@@ -13,14 +13,14 @@ follows a list of UTN's IT heroes and their merits.
 
 ### Anton Fogelberg - (2020-2021)
 
-_Project manager Digitalization committee_ - contact: [email](antonfogelberg@gmail.com)
+_Project manager Digitalization committee_ - contact: \[[e-mail](mailto:antonfogelberg@gmail.com)\]
 
 - Made sure no stupid projects were started
 - Set up a structured "skifte" for Digitalization committee
 
 ### Hanna Gjöthlén - (2020-2021)
 
-_Vice project manager Digitalization committee and System Administrator_ - contact: [email](hannagjothlen@gmail.com)
+_Vice project manager Digitalization committee and System Administrator_ - contact: \[[e-mail](mailto:hannagjothlen@gmail.com)\]
 
 - Kept making sure things were running
 - Successfully restored lost databases
