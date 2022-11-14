@@ -37,56 +37,6 @@ form av exempelvis antal processorkärnor och RAM-minne.
 
 ## Lista över servrar
 
-### webhost.utn.se - [REMOVED]
-
-På denna server finns idag UTN:s medlemsregister.
-
-- Ubuntu 10.04 	LTS
-- Apache-webserver
-
-Hosting:
-
-- UTN:s medlemsregister (register.utn.se)
-
-
-Anledningen till att den gamla servern inte längre används är flera.
-
-- Den börjar bli utdaterad rent mjukvarumässigt och ingen har full koll på vad
-som är installerat på den. Det är lite riskabelt att uppdatera mjukvaran pga
-detta.
-- Det finns väldigt lite dokumentation hur den är konfigurerad.
-- Den har en tendens att krascha vid hög belastning.
-- Dess hårddisksutrymme minskar ständigt bland annat pga växande loggfiler.
-
-
-### main.utn.se - [REMOVED]
-
-UTN:s hemsida
-
-Programvara:
-
-- Ubuntu 12.04 LTS
-- nginx som webserver.
-
-Hosting:
-- www.utn.se
-
-### sections.utn.se - [REMOVED]
-Some of UTN:s sections have hosting on utn.se. Many also have test-sites that never where published. Most of the sites uses the www.utn.se drupal CMS as their template.
-
-Programvara:
-
-- Ubuntu 12.04 LTS
-- nginx som webserver.
-
-Hosting:
-
-- bas.utn.se
-- es.utn.se
-- k.utn.se
-- sts.utn.se
-- w.utn.se
-
 ### event.utn.se
 
 UTN:s olika events hemsidor.
@@ -129,10 +79,7 @@ Hosting:
 
 - Owncloud fileserver (files.utn.se)
 
-### utnarm.utn.se - [REMOVED]
-
-Utnarms gamla hemsida låg här. De har numera flyttat över till Drupal på
-event.utn.se. Borde raderas, hör med utnarm om denna fortfarande används.
+### utnarm.utn.se
 
 Mjukvara:
 
@@ -142,20 +89,6 @@ Mjukvara:
 
 Hosting:
 - Utnarms hemsida (utnarm.utn.se)
-
-### pay.utn.se - [REMOVED]
-
-UTN:s server för betaltjänster. Ett egenutvecklad system av Åke Lagercrantz och
-Niclas Edenvin.
-
-Mjukvara:
-
-- Ubuntu 12.04 LTS
-- nginx
-
-Hosting:
-
-- UTN:s betaltjänst (pay.utn.se)
 
 ## Nya servrarna
 
