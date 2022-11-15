@@ -8,7 +8,7 @@ toc = true
 ## Introduciton
 **This guide is only for the system administrator.**
 
-There comes a time when the admin must step down from his/her position and allow for a new person to take his/her place.
+There comes a time when the admin must step down from their position and allow for a new person to take their place.
 
 ## Handing Over
 When handing over the position, the following things must be done
@@ -36,7 +36,7 @@ When handing over the position, the following things must be done
 
 **The new admin must also setup ansible on his/her computer:**
 
-- Install ansible. Instructions can be found [here](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html). If the new admin uses windows, he/she can use `ubuntu for windows` to install ansible.
+- Install ansible. Instructions can be found [here](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html). If the new admin uses windows, they can use `ubuntu for windows` to install ansible.
 - Follow the [installation instructions](/development_tools/ansible/) for the UTN ansible repository
 
 **The new admin should also do the follwing things:**

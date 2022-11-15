@@ -9,6 +9,12 @@ This system uses the unions new member system (MELOS).
 
 The member check can be found at [utn.se/medlemskoll](https://www.utn.se/medlemskoll "Member Check")
 
+{{% notice info %}}
+
+This database (and thus this information) is soon-to-be depricated. The DK is not actively working on Melos, member-check updates will be postponed until Upright is phased in. 
+
+{{% /notice %}}
+
 ## API
 
 The member check is also available as an api and can be used from a website, app etc.
