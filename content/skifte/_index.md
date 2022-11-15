@@ -1,7 +1,7 @@
 +++
 title = "Skifte"
 date =  2021-10-07T19:14:19+01:00
-weight = 71
+weight = 72
 chapter = true
 pre = "<b>12. </b>"
 
