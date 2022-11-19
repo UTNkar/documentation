@@ -1,5 +1,5 @@
 +++
-date = "2016-08-18T15:22:50+02:00"
+date = "2022-11-20T00:50:50+02:00"
 title = "Member registry"
 toc = true
 weight = 15
