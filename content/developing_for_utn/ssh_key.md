@@ -39,3 +39,5 @@ Once you open the terminal the process becomes rather easy.
 4. Congratulations! You have generated a SSH key pair, send your public key to
 the [system administrator](mailto:admin@utn.se). (If you used the default
 location you can use the following command: `cat ~/.ssh/id_ed25519.pub`)
+
+5. After the [system administrator](mailto:admin@utn.se) has provided ssh access, you can now access the servers with `ssh [server name].utn.se`, with the exception of moore. Contact the system administrator for more information about accessing moore.
