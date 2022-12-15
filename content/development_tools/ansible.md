@@ -73,6 +73,15 @@ Gets the latest version from the documentation github repo and updates the docum
 - `deploy`: runs all steps that updates the documentation to the latest version
 - `nginx`: runs the steps necessary to configure nginx for the documentation website
 
+#### bocken.yml
+
+Sets up dependencies and the database and updates the bocken system to the latest version on the master branch in the bocken github repo.
+
+- `setup`: runs all steps that setup dependencies and database.
+- `deploy`: runs all steps that downloads and installs the latest version of moore.
+- `nginx`: runs the nginx role
+- `cron`: runs cron jobs
+
 #### custom_web_babbage.yml
 
 Deploys the applications specified in `vars/custom_installations_babbage.yml` to *babbage*.
