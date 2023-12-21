@@ -1,15 +1,27 @@
-+++
-title = "Technical aspects"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 39
-chapter = true
-+++
+---
+title: "Technical Structure"
+weight: 39
+chapter: true
+bookCollapseSection: true
+---
 
-# OrdSys' technical description
+OrdSys is a system developed using a combination of popular programming languages and frameworks to create a responsive and reliable application.
 
+This chapter is designed to give a general understanding of OrdSys' technical components without delving into complex details, making it suitable for readers who seek a foundational grasp of the system's architecture.
 
-OrdSys is built with Javascript and Python using Node with React-Bootstrap for the frontend and Django & Redis for the backend.
+Here's a brief technical breakdown:
 
-This chapter contains information about the technical aspects of the system. It won't go in to too much technical detail. For instructions on installing the system or other code-related questions, please refer to the [GitHub repo](https://github.com/utnkar/ordsys).
+### Frontend Development
+
+- **JavaScript**: The scripting language used for creating dynamic content on the frontend.
+- **React-Bootstrap**: A UI framework that combines React.js and Bootstrap, offering a collection of reusable components for building a responsive interface.
+
+### Backend Development
+
+- **Python**: A high-level programming language used for server-side logic.
+- **Django**: A Python-based web framework that follows the model-template-views architectural pattern.
+- **Redis**: An in-memory data structure store, used as a database, cache, and message broker.
+
+### Repository and Documentation
+
+For detailed installation instructions, codebase access, and other technical queries, you can visit the [GitHub repository](https://github.com/utnkar/ordsys).

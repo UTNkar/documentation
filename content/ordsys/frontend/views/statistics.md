@@ -1,18 +1,26 @@
-+++
-title = "Statistics view"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 7
-+++
+---
+title: "Statistics view"
+weight: 7
+---
 
-The statistics view is intended for managers in charge of food ordering and planning.
+The Statistics View is specifically designed for managers responsible for food ordering and event planning within OrdSys.
 
 ![statistics view](/images/ordsys/views/statistics.png)
 
-The statistics view allows you to get an overview of how many of each menu item is ordered during a selected date and time interval (such as the previous night, or the full two weeks of a reception).
+### Purpose and Functionality
 
-It will count all occurrences of each menu item in orders regardless of their status (except for deleted orders). To use the statistics view, select a start date & time as well as an end date & time using the date fields and hit the *load selected interval* button. This will display a bar chart, as seen in the above picture.
+The main function of the Statistics View is to provide managers with data on menu item sales over a specific period. This could be for the duration of an event, a single day, or across a span of several weeks, such as during a reception period.
 
-![statistics view datetime picker](/images/ordsys/views/statistics_datetime.png?height=25pc)
-The picker tool for selecting a time and date to filter with.
+### How to Use the Statistics View
+
+1. To begin, use the date and time pickers to set both the start and end of the interval you want to analyze.
+  
+   ![statistics view datetime picker](/images/ordsys/views/statistics-datetime.png)
+
+2. Once you've selected the desired date and time range, click the *load selected interval* button.
+
+3. The system will generate a bar chart that shows the number of times each menu item was ordered within the chosen timeframe.
+
+4. The data includes all orders regardless of their status, except for those that have been deleted. This ensures a comprehensive overview of sales performance for each item.
+
+This statistical analysis is important for managers to make informed decisions about menu planning, inventory management, and understanding customer preferences during specific events or seasons.

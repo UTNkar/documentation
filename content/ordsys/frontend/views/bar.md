@@ -1,84 +1,103 @@
-+++
-title = "Bar view"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 2
-+++
+---
+title: "Bar View"
+weight: 2
+---
 
-The bar view is the main view for placing orders in OrdSys, intended to be used on a laptop placed in the bar during an event. A lot of the other views, such as the delivery view, waiter view and order history view are in fact just alternative renders of the bar view.
+The Bar View is designed as the primary interface for placing orders within OrdSys. It is optimized for use on a laptop situated at the bar during events. Additional views like the Delivery View, Waiter View, and Order History View are essentially different representations of the Bar View tailored for specific tasks.
 
 ![bar view](/images/ordsys/views/bar.png)
 
-##### 1. Organisation logotype
-The logotype of whichever organisation you are signed in as. This can be pressed to return to the [index view](../).
+##### 1. Organisation Logotype
 
-##### 2. Current order area
-In the current order area you can see whichever items are placed in your current order, together with how many of each and any eventual modifications to them. You can add more of a certain item by incrementing it with the plus sign, or remove it by reducing it's count to zero with the minus sign.
+Located at the top left, the organization's logotype allows users to quickly return to the [Index View](../) with a single click.
 
-Should you wish to completely start over with an order, you can press the red reset button next to the Current Order heading.
+##### 2. Current Order Area
 
-##### 3. Order number and numpad
-The order number represents either the table that the customer is seated at, or the number on the sign you give the customer when placing an order. Enter the number using the numpad. Once an order contains at least one item and an order number, you can place the order using the send-button which will have turned from gray to green.
+This section displays the items selected for the current order, their quantities, and any specific modifications requested. To increase the quantity of an item, click the plus sign; to decrease it, click the minus sign. If the quantity reaches zero, the item is removed from the order.
 
-##### 4. Order note
-In this field you can enter anything that might be good to know about the specific order. Such things might be if the customer is seated outdoors, if they would like their order in a to-go container or perhaps if they would want it at a specific time. Order notes are seen in blue next to every order that has been placed.
+If you need to start a new order from scratch, simply press the red reset button located next to the "Current Order" heading. This will clear all items and modifications currently listed in the order.
 
-##### 5. Menu and modification field
-The menu list contains all menu items that can be ordered for the specific occasion. To add an item to your current order, press the respective button. There might be more menu items than can fit on the screen, in which case the list becomes scrollable.
+##### 3. Order Number and Numpad
 
-There is also a modification field that you can use to modify a certain menu item, such as ordering a hamburger without onion. To do this, write whichever modification the customer wants in the modification field and press the menu item button. This will add the menu item to the current order with the requested modification next to it within parentheses.
+The order number is important as it identifies either the customer's table or the number on a sign provided to the customer after placing their order. Use the numpad to enter this number.
+
+An order must include at least one item and an order number to be finalized. When these criteria are met, the send button will change from gray to green, indicating that the order is ready to be submitted. Click this green send button to place the order.
+
+##### 4. Order Note
+
+The Order Note field is for entering any additional information that may be relevant to the customer's order. This could include special instructions like:
+
+- The customer is seated outdoors.
+- The order should be prepared for takeout.
+- The customer requests delivery at a specific time.
+
+These notes are displayed in blue next to each order once placed, ensuring that important details are visible and can be accounted for by the staff.
+
+##### 5. Menu and Modification Field
+
+The menu list showcases all the items available for ordering during the event. To add an item to the current order, simply click the corresponding button. If the list of menu items exceeds the screen space, you can scroll through it to view more options.
+
+For customized orders, use the modification field. Here's how:
+
+- Write the desired modification, such as "no onion."
+- Then, select the menu item, like "hamburger."
+- The item will appear in the current order with the modification noted next to it within parentheses (e.g., "hamburger (no onion)").
 
 {{% notice warning %}}
-
-Note that modifications must be entered before you press the menu item button, not afterwards! This means the modification should be thought of as *no onion -> hamburger* instead of *hamburger -> no onion*!
-
+It's important to enter any modifications in the provided field before clicking the menu item button. The correct order is to first specify the modification and then select the item. For example, input "no onion" before choosing "hamburger" to ensure the modification is applied.
 {{% /notice %}}
 
 ##### 6. Membership checker
-If you would like to check a person's UTN membership, you can ask them for their personal number and enter it here and press the "Check membership" button. If the person is a member the button will turn green, otherwise red.
+
+To confirm a UTN membership, input the individual's personal number and press "Check membership." The button will indicate membership status by turning green for members or red for non-members.
 
 ##### 7. Order column
-In this column all currently active orders can be seen, together with their customer number, their contents, when they were placed, eventual order notes as well as the order status.
 
-An order can be pressed to bring up its information window.
+This column displays all active orders with details such as customer number, order contents, time placed, notes, and status. Clicking an order opens its detailed information window.
 
 {{% notice info %}}
+An order's status can be one of the following:
 
-The four different statuses that an order can have are:
-**Waiting** for orders that haven't been processed yet.
-**In progress** for orders that are currently being processed by tap or kitchen staff.
-**Done** for orders that are ready to be delivered.
-**In transit** for orders that are in the process of being carried out.
-
+- **Waiting**: Not yet processed.
+- **In progress**: Being prepared.
+- **Done**: Ready for pickup or delivery.
+- **In transit**: Currently being delivered.
 {{% /notice %}}
 
 
-##### 8. The order information window
-Pressing an order brings upp the following window:
-![order information modal](/images/ordsys/views/bar_modal.png?width=35pc)
+##### 8. Order Information Window
 
-Here you can see the order a bit more clearly, as well as access individual order functions. The top-most button will either be "claim" or "delivered" depending on the order's status. Pressing the "claim" button will change the order's status to in transit, and pressing "deliver" (which can only be done on orders with the *in transit* status) will remove the order from view.
+By clicking on an active order, an information window appears:
 
-Pressing the edit button will open the order up for editing, see section 9.
+![order information modal](/images/ordsys/views/bar-modal.png)
 
-Pressing the delete button will remove the order from the system entirely, without affecting the statistics.
+In this window, you'll get a clearer view of the order and options to manage it. Depending on the order's status, you will see either a "claim" or "delivered" button at the top of the window:
 
-##### 9. Editing an order
+- Clicking "claim" changes the order's status to "in transit."
+- Clicking "deliver" is only available for orders marked as "in transit" and will remove the order from the active view.
+
+Additionally, there are options to edit or delete the order:
+
+- The edit button allows for modifications to the order. For details on editing, refer to the relevant section below.
+- The delete button permanently removes the order from the system and does not impact statistics.
 
 Pressing the edit button in the order information window will open the order in edit mode.
-![order edit mode](/images/ordsys/views/bar_edit.png?width=25pc)
 
-Editing an order is very similar to creating an order, and is useful since editing an order does not move it in the priority queue. You can add and remove items, change their modifications, the order note, customer number and more. The key difference is once you're done editing an order, pressing the send button will update the existing order instead of creating a new one.
+![order edit mode](/images/ordsys/views/bar-edit.png)
+
+The edit mode interface is similar to the order creation process. You can make various changes to the order without affecting its position in the queue. Available editing actions include:
+
+- Adding or removing items
+- Altering item modifications
+- Updating the order note
+- Changing the customer number
+
+After making the necessary changes, press the send button to update the order. This will modify the current order rather than create a new one.
 
 {{% notice info %}}
-
-An order can only be edited if it has the *waiting* status, since any other status means that the order is being or has already been fulfilled.
-
+Orders can only be edited if they are in a *waiting* status. This is because orders with other statuses are either being prepared or have already been completed.
 {{% /notice %}}
 
 {{% notice warning %}}
-
-Since beverage and food orders are split upon creation and sent to the tap and kitchen, respectively, you can not edit a food order to add a beverage or vice versa. If you need to add a beverage to a food order or vice versa, you must therefore create a new order.
-
+Beverage and food orders are separated at the time of creation and directed to the bar or kitchen. Therefore, you cannot add a beverage to a food order or food to a beverage order during the editing process. To combine different types of items, you will need to create a separate new order.
 {{% /notice %}}

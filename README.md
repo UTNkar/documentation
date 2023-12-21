@@ -1,26 +1,17 @@
 # UTN Documentation
 
-This documentation website aims to document the UTN IT infrastructure. It aims
-to document all digital UTN systems and activities on a global level; for
-example the website, the e-mail service, but also the websites of sections are
-documented within this website.
+Welcome to the official documentation for the Uppsala Union of Engineering and Science Students (UTN) IT infrastructure. Our goal is to provide a centralized resource detailing all digital systems and activities within UTN, such as the main website, email services, and individual section websites.
 
-The website is currently hosted on:
-[docs.utn.se](https://docs.utn.se/introduction/).
+Access the published documentation at: [docs.utn.se](https://docs.utn.se/introduction/).
 
-## Installation
+## Set Up
 
-Clone the project with `git clone --recursive link_to_this_repository`.
+To get started, clone the repository using `git clone --recursive link_to_this_repository`.
 
-This website is generated using [Hugo](https://gohugo.io). If you have Hugo installed,
-then it's a simple fact of running `hugo` within the directory. HTML files will
-be generated in the `public/` directory. These files can then be used to host
-the website.
+This site is built with [Hugo](https://gohugo.io). Once Hugo is installed, simply run `hugo` in the project directory to generate HTML files in the `public/` folder, which are then ready for website deployment.
 
-Tip: while working on the website `hugo server` will host a local web server
-which will automatically update when changes are made.
+For development convenience, use `hugo server` to start a local web server that reflects live changes as you work.
 
-## Contributing
+## Get Involved
 
-We welcome contributions from everyone! So if you feel something should be
-improved, then feel free to write an issue, or even to make a pull request.
+Contributions are highly encouraged! If you notice areas for improvement or want to enhance the documentation, please submit an issue or a pull request.

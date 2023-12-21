@@ -1,14 +1,10 @@
-+++
-title = "The back-end"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 30
-chapter = true
-+++
+---
+title: "Back-End"
+weight: 30
+chapter: true
+bookCollapseSection: true
+---
 
-# The back-end user interface
+The back-end user interface is designed for event managers to perform administrative tasks such as creating user accounts, managing menu items, and more. This interface provides tools for effectively managing events within the UTN system.
 
-These pages are about the back-end user interface, meant to be used by event managers to create users, create and activate/deactivate menu items and more.
-
-For a walk-through of the technical aspects of the system, see the [technical](../technical/) page.
+For an in-depth understanding of the technical implementation and system structure, please refer to the [technical](../technical/) page, which offers a detailed walkthrough of the technical aspects of the system.

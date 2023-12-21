@@ -1,13 +1,10 @@
-+++
-title = "Order history view"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 8
-+++
+---
+title: "Order History View"
+weight: 8
+---
 
-The order history view shows all orders, regardless of their status, from the last 60 minutes.
+The Order History View provides a comprehensive record of all orders placed within the last 60 minutes.
 
-![order history view](/images/ordsys/views/order_history.png)
+![order history view](/images/ordsys/views/order-history.png)
 
-The orders can not be interacted with or changed in any way in this view, it is only for information purposes. This view was implemented after users stated a desire to see delivered orders, for when an order was accidentally was marked as delivered or something similar.
+This view is read-only and does not allow any interaction with or modifications to the orders. It serves purely for informational purposes, enabling users to review past orders. This feature was added in response to user feedback requesting visibility into delivered orders, especially useful in situations where an order may have been mistakenly marked as delivered or when verifying recent order activity.

@@ -1,30 +1,23 @@
-+++
-title = "The menu items table"
-menutitle = "Menu items"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 3
-+++
+---
+title: "Menu Items"
+weight: 3
+---
 
-In the menu items table, a list of all current and past menu items that have been used in events for your organisation can be seen and modified. For each menu item there are also two checkboxes:
+In the menu items table of OrdSys, you can view and edit a list of all menu items that have been offered by your organisation during past events. Each menu item entry includes two checkboxes with specific functions:
 
-* Active - Whether or not the menu item should be displayed in the menu when placing orders in the front-end (ergo, whether they are orderable or not)
-* Beverage - Whether or not the menu item is a beverage and therefore should be sent to the tap view instead of the kitchen view in the front-end.
-
-{{% notice warning %}}
-
-Due to the relational nature of the database, deleting a menu item is not recommended, as it will also delete all orders with the given menu item from the order history which affects the statistics view.  
-Instead of deleting orders, mark them as not active in case they're not being served at the moment, and reactivate them in the future if the menu item is placed back on the menu.
-
-{{% /notice %}}
+- **Active**: This checkbox indicates whether the menu item is currently available for order in the front-end interface. If unchecked, the item will not appear as an option when placing orders.
+- **Beverage**: This checkbox designates whether the item is a beverage, which determines if it should be displayed in the tap view rather than the kitchen view in the front-end.
 
 ![menu items](/images/ordsys/admin/menuitems.png)
 
-## Creating a menu item
+{{% notice warning %}}
+Due to the interconnected structure of the database, deleting a menu item is not advisable. Doing so would remove all orders containing that item from the order history, impacting statistical data. Instead of deletion, items that are currently not offered should be marked as inactive. This way, they can be easily reactivated if they return to the menu in the future.
+{{% /notice %}}
 
-To add a new menu item to your organisation, press the "Add menu item" button in the top-right corner. This will take you to a view where you can enter the name of the menu item as well as select whether or not it should be active and a beverage.
+## Creating a Menu Item
 
-![creating a menu item](/images/ordsys/admin/menuitem_create.png)
+To introduce a new menu item for your organisation, click the "Add menu item" button located in the top-right corner of the menu items table. This action will lead you to a form where you can specify the item's name and its status as active and/or a beverage.
 
-Simply enter a name and select whether or not it a beverage and you're done! Pressing the create button in the lower right will create the menu item and display it in the front-end (provided *active* is checked).
+![creating a menu item](/images/ordsys/admin/menuitem-create.png)
+
+Enter the name of the item, and select the appropriate options for whether it's a beverage. Finalize the process by clicking the "Save" button at the bottom right. The new menu item will be created and, if marked as active, will immediately be listed as an available choice in the front-end.

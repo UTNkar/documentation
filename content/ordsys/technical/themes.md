@@ -1,18 +1,15 @@
-+++
-title = "Creating and editing themes"
-menutitle = "Themes"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 10
-+++
+---
+title: "Themes"
+weight: 10
+---
 
-Themes are used to give the system a more personal flair depending on who uses it. Groups like Klubbverket and Forsränningen have different themes, which changes whenever a user logs in. There are three key file locations for themes:
-1. `./frontend/src/utils/themes.json`, where the theme names and color codes are defined.
-2. The *ThemesEnum* enumerator class located under the Organisation model in `./backend/models.py`, which allows organisations to select the theme. Changing this requires making a database migration.
-3. `./frontend/public/assets/images/`, where the theme logotypes are located. These must be named the same as the theme variable name and be in png format.
+Themes allow you to customize the appearance of the system to reflect the identity of different groups, such as Klubbverket and Forsränningen. When a user logs in, the theme changes to match their group. Here's where you can find and adjust theme settings:
 
-In short, the theme dictates which logotype is displayed in the top-left corner of all views, the header and button background color as well as text colors. These different colours are defined in `./frontend/src/utils/themes.json`, where a theme looks as follows:
+1. **Theme Names and Colors:** Edit the file `./frontend/src/utils/themes.json` to define new theme names and their associated color codes. Use hexadecimal color codes (e.g., `#FF5733`).
+2. **Theme Selection:** Use the *ThemesEnum* class in the Organisation model at `./backend/models.py` for selecting themes. If you modify this, remember you'll need to update the database with a migration.
+3. **Logos:** Place theme logos in `./frontend/public/assets/images/`. Make sure each logo matches the theme's `logo` value that it is in .png format.
+
+In essence, the theme controls the logo displayed on the top-left of all pages, as well as the colors of headers, buttons, and text. A typical theme entry in `./frontend/src/utils/themes.json` looks like this:
 
 ```json
 "utn": { // Theme variable name
@@ -23,28 +20,27 @@ In short, the theme dictates which logotype is displayed in the top-left corner 
         "lightTextColor": "#ffffff" // Colour of text that is rendered on dark background
     }
 ```
-The *utn* theme has the logotype `./frontend/public/assets/images/utn.png`.
 
----
+The UTN theme uses the logo located at `./frontend/public/assets/images/utn.png`.
 
-### Adding a new theme
+### Adding a New Theme
 
-{{% notice info %}}
+To add a new theme, you need to perform a database migration and merge a commit into the master branch of the GitHub repository. Administrator access to the system or communication with the digitalization committee is required.
 
-Adding a new theme is fairly straight forward, but requires both a database migration and a commit to be merged into the master branch of the GitHub repo. This means creating a new theme requires administrator access to the system (or at least communication with the digitalization committee).
+#### 1. Add Colors to `themes.json`
 
-{{% /notice %}}
+Insert a new theme object into the `themes.json` file. Assign the desired colours to this theme. The name you choose will be its variable name.
 
-##### 1. Add colours to themes.json
-First, add a new theme object to the themes.json file and assign it the colours you want. The name you give it here is its variable name.
+#### 2. Add a Logotype
 
-##### 2. Add a logotype
-In the static images folder mentioned above, save a png file with the logotype you want to use. There are no strict size requirements as the logotype will be resized to a correct height. Make sure the name of the logotype matches the name of the theme - meaning if you're making a theme called "bas", then your logotype should be named "bas.png".
+Place a PNG file with the desired logotype in the static images folder. The logotype will be resized to fit, so strict size requirements do not apply. The logotype's file name should match the theme's name. For example, if the theme is "bas", the logotype file should be named "bas.png".
 
-##### 3. Add an enumerator choice
-To enable organisations to select this theme in the Django admin interface, it must be added to the ThemesEnum enumerator class in the models.py field. Simply add a new line with the theme's variable name followed by the verbose name (what you'll see in the admin interface).
+#### 3. Add an Enumerator Choice
 
-{{% expand "ThemesEnum as of July 2021"%}}
+To make the new theme selectable in the Django admin interface, add it to the ThemesEnum class within the models.py file. Include a new line with the theme's variable name and its verbose name, which will be displayed in the admin interface.
+
+{{% details "ThemesEnum as of July 2021"%}}
+
 ```python
 class ThemesEnum(models.TextChoices):
         UTN = 'utn', 'UTN'
@@ -55,7 +51,9 @@ class ThemesEnum(models.TextChoices):
         FORSRANNINGEN = 'forsranningen', 'Forsränningen'
         REBUSRALLYT = 'rebusrallyt', 'Rebusrallyt'
 ```
-{{% /expand %}}
 
-##### 4. Put to production
-Once the theme has been added, committed, pushed and merged through the UTNkar/OrdSys-repo, make the new migrations to the database following the repo readme instructions and you should be done.
+{{% /details %}}
+
+#### 4. Deploy to Production
+
+After the theme is added to the repository, and the changes are committed, pushed, and merged into the UTNkar/OrdSys repository, execute the database migrations as described in the repository's README file to complete the process.

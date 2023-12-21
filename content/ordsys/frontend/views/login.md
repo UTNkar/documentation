@@ -1,23 +1,20 @@
-+++
-title = "Login view"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 1
-+++
+---
+title: "Login View"
+weight: 1
+---
 
-The login view is automatically displayed if a user opens the system without being authenticated.
+The Login View is the gateway to the OrdSys for users who have not yet been authenticated.
 
 ![login view](/images/ordsys/views/login.png)
 
-If a user is not authenticated, they will first be taken to the login screen.
+Upon attempting to access the system, unauthenticated users are directed to the login screen, which is comprised of the following:
 
-The login screen essentially consists of three form fields. A drop-down list of **organisations**, which enables a drop-down list of **users** within that organisation and lastly a **password** field.
+- A **drop-down list of organizations**: Select your organization from the list.
+- A **drop-down list of users** within the selected organization: Choose your user account.
+- A **password field**: Enter your password to gain access.
 
-The user accounts are managed by their respective organisation's administrator. More on this can be found in the backend section.
+User accounts are under the jurisdiction of their respective organization's administrator, and details on account management can be found in the backend documentation.
 
 {{% notice info %}}
-
-Due to a bug, sometimes logging in yields the message "An unknown error occurred, please try again". If this happens, try clearing all cookies from the utn.se domain in your browser.
-
+In case of a login error stating "An unknown error occurred, please try again," a workaround is to clear all cookies related to the utn.se domain from your browser and try logging in again.
 {{% /notice %}}

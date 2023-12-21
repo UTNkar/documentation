@@ -1,14 +1,12 @@
-+++
-date = "2016-08-18T12:01:38+02:00"
-title = "Loopia"
-toc = true
-weight = 35
-+++
+---
+title: "Loopia"
+toc: true
+weight: 35
+---
 
-UTN registers its domain names at [Loopia](https://www.loopia.com). We currently
-hold the following domain names:
+UTN's domain names are registered through [Loopia](https://www.loopia.com). Access to manage these domains is held by the Information Officer. The following is a list of domains owned by UTN:
 
-- es20.se - Used by the ES section for their 20 year celebration. This domain is payed by the ES section.
+- es20.se - This domain is utilized by the ES section for their 20-year celebration and is funded by the ES section itself.
 - forsranningen.com
 - forsranningen.se
 - forsränningen.se
@@ -22,6 +20,4 @@ hold the following domain names:
 - utnarm.com
 - utnarm.se
 
-Most DNS entries are thus also managed at Loopia, except for *utn.se*, *utnarm.se* and *es20.se*
-which are managed at [CloudFlare](/infrastructure/cloudflare). This means that the subdomain records for them
-at loopia don't have any effect and don't work.
+While most DNS records for these domains are managed at Loopia, the DNS records for *utn.se*, *utnarm.se*, and *es20.se* are controlled via [CloudFlare](./cloudflare). As a result, any subdomain records for these particular domains set at Loopia will not take effect and are inoperative.

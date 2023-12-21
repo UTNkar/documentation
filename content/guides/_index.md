@@ -1,14 +1,8 @@
-+++
-title = "Guides"
-date =  2019-03-16T19:14:19+01:00
-weight = 71
-chapter = true
-pre = "<b>11. </b>"
+---
+title: "Guides"
+weight: 71
+chapter: true
+bookCollapseSection: true
+---
 
-+++
-
-### Chapter 11
-
-# Guides 
-
-This chapter contains guides for various tasks
+This chapter includes guides for various tasks related to the systems and processes within UTN, and are supposed to assist you in completing specific tasks efficiently and effectively.

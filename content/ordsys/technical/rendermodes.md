@@ -1,26 +1,23 @@
-+++
-title = "Render modes"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 20
-+++
-##### (AKA "where the f*** is the waiter view code")
-Two files in the front end source code stand out, namely `./frontend/src/components/Bar/Bar.tsx` and `./frontend/src/components/Kitchen/Kitchen.tsx`. That's because these two files are home to all views but the statistics view.
+---
+title: "Render Modes"
+weight: 20
+---
 
-| File        | Views                           |
-| ----------- | ------------------------------- |
-| Bar.tsx     | Bar, Delivery, History & Waiter |
-| Kitchen.tsx | Kitchen & Tap                   |
+Two important files, `Bar.tsx` and `Kitchen.tsx`, in the front-end code contain almost all the user interfaces except for the statistics page.
 
+Here's a quick overview of what each file includes:
 
-Originally, the bar, kitchen and statistics views were the only three views available in the system. As the use cases changed thanks to Covid-19, however, the need for variations of the kitchen and bar views arose. The kitchen view required a similar but slightly different tap view, the bar view needed similar but slightly different waiter and delivery views, etcetera. Notice how the delivery view is essentially just the third orders column from the bar view.
+- `Bar.tsx`: Contains the interfaces for the Bar, Delivery, History, and Waiter sections.
+- `Kitchen.tsx`: Contains the interfaces for the Kitchen and Tap sections.
 
-Since these views were so similar to each other, RenderModes were implemented into the Bar.tsx and Kitchen.tsx file. This meant less code had to be repeated and made changing the design easier.
+Initially, the system had only three interfaces: Bar, Kitchen, and Statistics. Due to changes brought about by the Covid-19 pandemic, there was a need for additional, slightly different versions of the Bar and Kitchen interfaces. For example, the Delivery interface is a modified version of one part of the Bar interface.
 
-Render modes work by passing a React prop to the different files when rendering them (instead of rendering separate files). Depending on which props are passed to the Bar and Kitchen file, different components are rendered. The different render mode props can be seen passed to the two files in the *renderComponents()* function of `./frontend/src/components/App.tsx`. Expand the snippet below to see it.
+To avoid duplicating code, a technique called RenderModes was introduced in both `Bar.tsx` and `Kitchen.tsx`. This allows for easier updates and less repetition in the code.
 
-{{%expand "renderComponents()"%}}
+RenderModes determine which components to display based on the properties, or props, provided when the components are used. You can see how this works in the `renderComponents()` function in `./frontend/src/components/App.tsx`. Check the code snippet below to see the implementation details.
+
+{{% details "`renderComponents()`" %}}
+
 ```typescript
 // ...
 return (
@@ -55,6 +52,7 @@ return (
 );
 // ...
 ```
-{{% /expand %}}
 
-The end result was more views with less files, although in the process of adding render modes, the files should probably have been renamed from Bar.tsx and Kitchen.tsx to Ordering.tsx and Fulfilling.tsx, or something similar. Oh well.
+{{% /details %}}
+
+The implementation of render modes led to a more efficient structure: we now have a greater variety of interfaces while using fewer files. However, it might have been better to rename `Bar.tsx` and `Kitchen.tsx` to names that better reflect their broader purposes, such as `Ordering.tsx` and `Fulfilling.tsx`. This wasn't done, but it's a consideration for future updates.

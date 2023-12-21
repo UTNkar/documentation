@@ -1,40 +1,43 @@
-+++
-title = "Delivery view"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 6
-+++
+---
+title: "Delivery View"
+weight: 6
+---
 
-The delivery view is a view intended to be used by runners carrying tablets or cell phones during events where food is carried out to customers by staff.
+The Delivery View is tailored for staff members, referred to as runners, who use tablets or cell phones to deliver food to customers during events.
 
 ![delivery view](/images/ordsys/views/delivery.png)
 
-In this view all currently active orders can be seen, together with their customer number, contents, when they were placed, eventual order notes as well as the order status.
+### Active Orders Overview
 
-An order can be pressed to bring up its information window.
+In this view, you can monitor all active orders which include:
+
+- Customer number
+- Contents of the order
+- Time the order was placed
+- Any special order notes
+- Current status of the order
+
+Selecting an order will open its information window for more details.
 
 {{% notice info %}}
+Orders can have one of four statuses:
 
-The four different statuses that an order can have are:
-**Waiting** for orders that haven't been processed yet.
-**In progress** for orders that are currently being processed by tap or kitchen staff.
-**Done** for orders that are ready to be delivered.
-**In transit** for orders that are in the process of being carried out.
-
+- **Waiting**: The order has not been processed.
+- **In progress**: The order is being prepared by bar or kitchen staff.
+- **Done**: The order is ready for delivery.
+- **In transit**: The order is in the process of being delivered.
 {{% /notice %}}
 
+### Order Information Window
 
-##### The order information window
-Pressing an order brings upp the following window:
-![order information modal](/images/ordsys/views/delivery_modal.png)
+When you press on an order, an information window appears:
 
-Here you can see the order a bit more clearly, as well as access individual order functions. The top-most button will either be "claim" or "delivered" depending on the order's status. Pressing the "claim" button will change the order's status to claimed, and pressing "deliver" (which can only be done on orders with the *claimed* status) will remove the order from view.
+![order information modal](/images/ordsys/views/delivery-modal.png)
 
-Pressing the delete button will remove the order from the system entirely, without affecting the statistics.
+This window provides a clearer view of the order and includes functions to manage it. The top button will be labeled "claim" or "delivered" based on whether the order is ready to be carried out or has been completed. Press "claim" to mark the order as claimed, which indicates you are taking responsibility for its delivery. Once an order is claimed, the "deliver" button can be used to signify that the order has been delivered and remove it from the active list.
+
+The delete button allows you to remove the order from the system entirely without impacting recorded statistics.
 
 {{% notice tip %}}
-
-When orders are picked up to be carried out, their respective orders should be claimed, so other staff don't attempt to deliver the same order.
-
+To prevent confusion and ensure efficient delivery, claim an order when you are in the process of delivering it. This will signal to other staff that the order is being handled.
 {{% /notice %}}

@@ -1,20 +1,19 @@
-+++
-title = "The front-end"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 15
-chapter = true
-+++
+---
+title: "Front-End"
+weight: 15
+chapter: true
+bookCollapseSection: true
+---
 
-# The front-end user interface
+The front-end of OrdSys is the part of the system where users interact with various features and functionalities. This user interface is accessible to all staff members except administrators, who typically use the backend for more complex management duties.
 
-This section describes the front-end of the system, intended to be used by all users apart from administrators.
+### Target Audience for the Documentation
 
-This documentation section is meant to be read by anyone intending to use the system, not necessarily just administrators and developers.
+This documentation is intended for:
+
+- Regular staff members who will be using the system on a daily basis.
+- Users who want to familiarize themselves with the system's capabilities.
 
 {{% notice info %}}
-
-These views are also documented in video format, a playlist of which can be found [here!](https://www.youtube.com/playlist?list=PLhE20ZMV4TUMeUtXMXiT-WKPJ9wCTfwAg)
-
+If you prefer to learn through visual aids, there is a collection of instructional videos that provide a walkthrough of the system's use. You can access these videos on a dedicated YouTube playlist [here](https://www.youtube.com/playlist?list=PLhE20ZMV4TUMeUtXMXiT-WKPJ9wCTfwAg).
 {{% /notice %}}

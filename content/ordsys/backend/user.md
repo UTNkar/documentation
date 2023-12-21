@@ -1,50 +1,44 @@
-+++
-title = "The users table"
-menutitle = "Users"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 2
-+++
+---
+title: "Users"
+weight: 2
+---
 
-The users table is accessed by logging in to the admin panel with your account and pressing the *Users* table. This will show you a list of all users belonging to your organisation. For each user you can also see their staff status. If a user has a green checkbox for their staff status, it means that the user account can be used to log in to the Django admin interface.
+The users table within the OrdSys admin panel provides an overview of all user accounts associated with your organization. To access this table, log in to the admin panel and select the *Users* table. You'll be presented with a list of users, and you can identify accounts with admin privileges by the green checkbox under their staff status—indicating the ability to log into the admin interface.
 
 ![user list](/images/ordsys/admin/userlist.png)
 
-## Creating a user
+## Creating a User
 
-As an organisation admin (Web(b) in the river rafting committee or Binär in the TD-reception committee among others), creating users for your organisation is useful. Although an organisation could get by with a single user (since accounts can be shared), using multiple users allow you to get more detailed statistics if using more than one bar, for example.
+For organization admins, creating individual user accounts is beneficial for operational efficiency and detailed statistics, especially if managing more than one bar or service point.
 
-To create a new user, press the Add user button in the top right of the users table. This will take you to the user creation screen where you'll firstly be prompted for a username and a password for the user. Note that the username has to be unique, regardless of which organisation it belongs to.
+To add a new user, click the "Add user" button at the top right of the users table. You'll be directed to a creation screen where you must enter a unique username and password for the new account.
 
-### User permissions
+### User Permissions
 
-As an organisation admin, there are in essence three different account types you can create. A normal user, a manager or an admin.
+As an organization admin, you can create three types of accounts: normal users, managers, or admins.
 
-{{%expand "The different user types (Expandable)" %}}
+**The Different User Types:**
 
-Normal users can only access the front-end and are, as the name implies, intended to be used by regular staff.
+- **Normal Users**: Have access only to the front-end and are designed for regular staff use.
+- **Manager Accounts**: Intended for kitchen and bar managers to adjust available menu items. These accounts do not have access to financial or sensitive organization data.
+- **Admin Accounts**: Have the most extensive permissions and are meant for individuals responsible for managing users and critical aspects of the organization. Typically, only one admin account is necessary per organization.
 
-A manager account is meant to be used by kitchen and bar managers (köks- och barchef) to change the available menu items in the system. These do not have access to the organisation's accounts.
+To set up a normal account, simply input the username and password and proceed to create the account.
 
-An admin account is the account type with the most permissions, and is intended to be used by the users mentioned at the top of this page. Normally, there shouldn't have to be more than one admin account per organisation.
-
-{{% /expand%}}
-
-To create a normal account, you need only enter the username and password and press create.
-
-To create an manager or admin account, first ensure that the "Staff" checkbox is checked. Without it, the account won't be able to access the Django admin interface. Then, select the corresponding user group in the left box and move it to the right, giving the user account the permissions for that account type. Done!
+For manager or admin accounts, make sure to mark the "Staff" checkbox to grant admin panel access. Then, assign the appropriate user group by moving it to the right box, which provides the necessary permissions for that account type.
 
 ![groups](/images/ordsys/admin/groups.png)
 
-Users can also be edited in this window, but doing so will require re-entering their password.
+Existing users can also be edited in this interface, but modifying an account will require resetting the password.
 
-### Example user setups
+### Example User Setups for an Organization
 
-An example of users for an organisation can be the following for Klubbverket:
+Here's an illustrative setup for an organization like Klubbverket:
 
-* Eventmästare - staff account belonging to *admin* group. This account is responsible for managing the other accounts.
-* Köksmästare - staff account belonging to *manager* group. This account is responsible for adding and removing menu items for each thursday's pub.
-* Bar - normal account used to take orders in the bar.
-* Kök - normal account used to prepare orders in the kitchen.
-* Utebar - normal account used during the battle of the sections when food and drink can be ordered outdoors as well.
+- **Eventmästare**: An admin group staff account for overseeing account management.
+- **Köksmästare**: A manager group staff account for updating the menu for weekly pubs.
+- **Bar**: A standard account used at the bar for order taking.
+- **Kök**: A standard account for the kitchen staff to prepare orders.
+- **Utebar**: A standard account used for outdoor service during events such as the battle of the sections.
+
+This structure allows for clear delineation of responsibilities and efficient management of the organization's operations within OrdSys.

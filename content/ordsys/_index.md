@@ -1,22 +1,17 @@
-+++
-title = "OrdSys"
-menutitle = "OrdSys - Order Management System"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 48
-chapter = true
-pre ="<b>6. </b>"
-+++
-
-### Chapter 6
-
-# OrdSys
-
-These pages are about the digital order management system used during pub events.
-
+---
+title: "OrdSys"
+weight: 48
+chapter: true
+bookCollapseSection: true
 ---
 
-OrdSys is a food- and beverage **ord**er management **sys**tem meant to remove the need for UTN bar staff writing orders on post-it notes, which often leads to longer waiting times and more mistakes.
+This chapter provides information about the digital order management system used at pub events.
 
-In short, OrdSys allows users to crate food and drink orders (svenska: *bongar*) through a flexible web interface using a computer, phone or tablet. These orders are then sent to a kitchen or bar for handling, before ultimately being delivered to a customer either through carry-out or pick-up.
+OrdSys is a digital system designed to streamline the process of ordering food and beverages. It replaces the old method of writing orders on post-it notes, which can slow down service and increase the chances of errors.
+
+**Key features of OrdSys include:**
+
+- A user-friendly web interface that works on computers, phones, and tablets.
+- The ability to quickly create and submit orders for food and drinks, which in Swedish are called *bongar*.
+- Orders are electronically sent to the kitchen or bar staff for preparation.
+- Customers can then either carry out their orders or pick them up when ready.

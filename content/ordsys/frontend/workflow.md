@@ -1,40 +1,46 @@
-+++
-title = "Example workflows"
-date =  2021-07-08
-LastModifierDisplayName = "Albin Antti"
-LastModifierEmail = "albin_antti@hotmail.com"
-weight = 100
-+++
+---
+title: "Workflows"
+weight: 100
+---
 
-Below is an example of how OrdSys can be used in two different scenarios, a Thursday's pub during normal circumstances, and in a pub tent during Covid-19 restrictions.
+OrdSys can adapt to various service scenarios, including a typical Thursday pub or a pub tent under Covid-19 restrictions. Below are examples of how the system functions in these different settings.
 
-## Normal workflow
-During a normal pub night, OrdSys would only be used to manage *food* orders, since beverage orders can be fulfilled immediately. Therefore, only the *bar view* and *kitchen view* will be in use.
+## Normal Workflow
 
-#### 1. Placing an order
-A customer approaches the bar and orders a beer and a hamburger. The bar staff hands the customer a table number sign and the beer, and proceeds to place an order for a hamburger to the given table number and send it through the system. The customer pays for the order before leaving the bar.
+Traditionally, OrdSys is used to manage only *food* orders during a pub night, as beverages are typically served immediately. The active views in this scenario are the *bar* and *kitchen*.
 
-#### 2. Receiving and handling an order
-The kitchen staff sees the newly placed hamburger order on a laptop in the kitchen set to the kitchen view. Once the kitchen staff is ready to prepare the burger, they press the rightward-facing arrow on the order, moving it to the *in progress* column to inform the bar staff and to make sure no-one else in the kitchen starts working on the same order.
+### 1. Placing an Order
 
-Should orders start to pile up, the kitchen staff can get an overview of how many items are waiting in the lower right portion of the screen. This is to ensure that they can tell the bar staff if they run out of a certain menu item.
+At the bar, a customer orders a beer and a hamburger. The bar staff gives them a table number sign and the beer, then enters the hamburger order into OrdSys for the specified table number. The customer pays for the order before leaving the bar.
 
-#### 3. Fulfilling the order
-Once the hamburger is ready, they press the rightward-facing arrow on the order again to move it into the *done* column. Someone from either the bar or kitchen staff then picks up the burger order and carries it to whichever customer has the provided table number. Once the hamburger has been given out, the staff take the table number sign back to the bar staff, who upon receiving the sign marks the order as *delivered* in the bar view, removing it from view.
+### 2. Receiving and Handling an Order
 
+In the kitchen, staff see the incoming hamburger order on a screen displaying the kitchen view. When ready to prepare the order, they move it to the *in progress* column, signaling to the bar staff and avoiding duplicate efforts in the kitchen.
 
-## Covid-19 workflow
-During the Covid-19 pandemic, a lot of changes were made. One of the biggest changes this made to how pub events worked was that customers were no longer allowed to go to the bar and order food and drinks. Instead, the staff had to wait tables like at a normal restaurant, which required several new views to be added, as well as adding the option of ordering beverages as these could no longer be immediately fulfilled.
+The kitchen view also shows a summary of pending items, allowing staff to inform the bar if an item runs out.
 
-The below example is taken from how the TD reception had their pub nights in the TD reception tent every evening during the reception.
+### 3. Fulfilling the Order
 
-#### 1. Placing an order
-A waiter using a tablet in the waiter view walks to a table with a customer seated. The customer orders a hamburger and a beer, which the waiter enters into the tablet together with the customer's table number. This order is then split into two orders - one containing the beer and the other containing the burger (since they'll be handled by different staff). The customer does not yet pay.
+Once prepared, the kitchen staff move the burger to the *done* column. A staff member then delivers the burger to the customer's table using the table number sign. After delivery, the bar staff set the order as *delivered* in the bar view, removing it from the system.
 
-#### 2. Receiving and handling an order
-The kitchen tent and the bar each have their own laptop, displaying the kitchen and tap view respectively (note that the bar view is for ordering, **not** fulfilling). Both the kitchen and the bar staff then start preparing the hamburger or beer in the same manner as the normal workflow example above. Since the tap can fulfil Once the items are ready, they move the respective order card into the *done* column.
+## Covid-19 Workflow
 
-#### 3. Fulfilling the order
-During the event, another category of staff, *runners*, are monitoring the delivery view, where they can see all orders that are currently waiting, in progress or ready for pickup. When someone in the kitchen or tap view moves an order to the *done* column, it changes color and rises to the top of the delivery view. Once this happens, the runner walks to either the kitchen or the bar and picks up the respective order and mark it as *claimed* in the delivery view, to prevent other runners from trying to pick up the same order.
+The Covid-19 pandemic necessitated significant alterations to service, including tableside service by staff rather than customer visits to the bar.
 
-They then make their way to the table number provided by the order and hand it to the customer who proceeds to make the payment. This means that for an order of one beverage and one food items, two separate payments are made, but it ensures orders can't be given to the wrong customers. If the order is a group order, payment is either taken from one individual or the whole table at the runners discretion. Once the payment is completed, the runner marks the order as *delivered* in the delivery view, which removes the order from all views.
+Here's an example from the TD reception tent's pub nights:
+
+### 1. Placing an Order
+
+A waiter enters orders for a hamburger and a beer into a tablet within the waiter view, along with the table number. The system creates two separate orders to be handled by the kitchen and bar staff. The customer does not pay immediately.
+
+### 2. Receiving and Handling an Order
+
+The kitchen and bar each have a laptop showing the kitchen and tap views, respectively. They prepare the orders as in the standard workflow. When ready, they move the orders to the *done* column.
+
+#### 3. Fulfilling the Order
+
+Once the kitchen staff completes the preparation of the hamburger, they update its status in OrdSys. They do this by clicking the rightward-facing arrow on the order within the kitchen view, which moves it to the *done* column. This action alerts the bar staff that the food item is ready for delivery.
+
+A staff member—either from the bar or kitchen—is assigned to deliver the completed orders to the customers. They locate the prepared hamburger, identify the correct table by matching the table number sign provided to the customer, and deliver the food directly to them.
+
+After the delivery is confirmed, the bar staff or the delivering staff member is responsible for updating the order status in OrdSys. They access the bar view, locate the corresponding order, and mark it as *delivered*. This final step removes the order from the system's active view, ensuring the order management process is kept up-to-date and avoiding any confusion over pending orders. This process ensures that customers receive their orders in a timely manner while maintaining an organized and smooth operation during the pub night.
