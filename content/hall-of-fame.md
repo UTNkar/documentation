@@ -6,8 +6,8 @@ weight: 75
 
 Throughout the years, UTN's IT systems have evolved through the collaborative efforts of many dedicated individuals. Most of the people mentioned here have served as System Administrators at UTN, often also acting as Project Managers for the Digitalization Group (previously called the Digitalization Committee). The digital products and services provided by UTN have been entirely shaped by them. Here are some of their contributions:
 
-- **Ludvig Aldén (present; 2023/2024)**  
-  Designed and crafted content for the new UTN website, revamped and unified the documentation with a fresh design consistent with the UTN website aesthetic, and established a presence on social media platforms including Facebook and Instagram.
+- **Ludvig Aldén (2023/2024)**  
+  Designed, developed and crafted content for the new UTN website in Webflow, revamped and unified the documentation with a fresh design consistent with the UTN website aesthetic, and created profiles on social media platforms such as Facebook and Instagram.
 
 - **Robin Dymér (2023)**  
   Led the migration from Melos to Unicore.
