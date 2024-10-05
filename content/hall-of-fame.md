@@ -4,10 +4,10 @@ toc: true
 weight: 75
 ---
 
-Throughout the years, UTN's IT systems have evolved through the collaborative efforts of many dedicated individuals. Most of the people mentioned here have served as System Administrators at UTN, often also acting as Project Managers for the Digitalization Group (previously called the Digitalization Committee). The digital products and services provided by UTN have been entirely shaped by them. Here are some of their contributions:
+Throughout the years, UTN's IT systems have evolved through the collaborative efforts of many dedicated individuals. Most of the people mentioned here have served as System Administrators at UTN, often also acting as Project Managers for the Digitalization Group (previously called the Digitalization Group). The digital products and services provided by UTN have been entirely shaped by them. Here are some of their contributions:
 
-- **Ludvig Aldén (2023/2024)**  
-  Designed, developed and crafted content for the new UTN website in Webflow, revamped and unified the documentation with a fresh design consistent with the UTN website aesthetic, and created profiles on social media platforms such as Facebook and Instagram.
+
+
 
 - **Robin Dymér (2023)**  
   Led the migration from Melos to Unicore.
@@ -25,13 +25,13 @@ Throughout the years, UTN's IT systems have evolved through the collaborative ef
   Details of contributions to be documented.
 
 - **Anton Fogelberg (2020-2021)**  
-  Prevented the start of unnecessary projects and established a structured handover process for the Digitalization Committee.
+  Prevented the start of unnecessary projects and established a structured handover process for the Digitalization Group.
 
 - **Hanna Gjöthlén (2020-2021)**  
   Ensured the continuous operation of systems, restored lost databases, and helped prevent the start of unnecessary projects.
 
 - **Daniel Fehrm (2018-2020)**  
-  Switched GitHub to the free plan, implemented SSL certificates, added documentation guides, configured Postfix to use SMTP, served as the first Project Manager for the Digitalization Committee, introduced Cloudflare origin certificates, consolidated Google Suites, and set up email deliverability standards.
+  Switched GitHub to the free plan, implemented SSL certificates, added documentation guides, configured Postfix to use SMTP, served as the first Project Manager for the Digitalization Group, introduced Cloudflare origin certificates, consolidated Google Suites, and set up email deliverability standards.
 
 - **Johan Snider (2017-2018)**  
   Maintained system operability.
